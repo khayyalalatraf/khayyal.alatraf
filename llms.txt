@@ -23,3 +23,10 @@
 
 ## Pages
 - [الموقع الرئيسي](https://khayyalalatraf.github.io/khayyal.alatraf/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
+- [صفحة تملّك الأجانب (English)](https://khayyalalatraf.github.io/khayyal.alatraf/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
+- [المدونة](https://khayyalalatraf.github.io/khayyal.alatraf/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
+  - [عقد الإيجار غير الموثق](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unregistered-rental-contract.html)
+  - [رفع الإيجار أثناء سريان العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/rent-increase-during-contract.html)
+  - [استرداد مبلغ التأمين](https://khayyalalatraf.github.io/khayyal.alatraf/blog/security-deposit-refund.html)
+  - [من يدفع رسوم توثيق العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/who-pays-documentation-fees.html)
+  - [تجميد إيجارات الرياض 5 سنوات](https://khayyalalatraf.github.io/khayyal.alatraf/blog/riyadh-rent-freeze.html)
