@@ -31,4 +31,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://khayyalalatraf.github.io/khayyal.alatraf/sitemap.xml
+Sitemap: https://khayyal-alatraf.sa/sitemap.xml

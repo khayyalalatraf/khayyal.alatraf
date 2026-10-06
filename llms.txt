@@ -13,7 +13,7 @@
 - ترخيص إعلانات البيع والتأجير العقارية
 
 ## معلومات التواصل
-- الموقع الإلكتروني: https://khayyalalatraf.github.io/khayyal.alatraf/
+- الموقع الإلكتروني: https://khayyal-alatraf.sa/
 - واتساب: https://wa.me/966530592272
 - الجوال: 0530592272
 - البريد الإلكتروني: khayyal.alatraf@outlook.sa
@@ -22,20 +22,20 @@
 جميع مناطق المملكة العربية السعودية (الرياض، جدة، الدمام، مكة المكرمة، المدينة المنورة، وبقية المناطق).
 
 ## Pages
-- [الموقع الرئيسي](https://khayyalalatraf.github.io/khayyal.alatraf/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
-- [صفحة تملّك الأجانب (English)](https://khayyalalatraf.github.io/khayyal.alatraf/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
-- [خدماتنا في الرياض](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
-- [خدماتنا في جدة](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-jeddah.html): توثيق عقود، بيع وتأجير وإدارة أملاك في جدة، وخدمات تملّك الأجانب.
-- [خدماتنا في الدمام](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-dammam.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الدمام، ووساطة عقود الشركات.
-- [توثيق عقود الإيجار](https://khayyalalatraf.github.io/khayyal.alatraf/rental-contract-documentation.html): توثيق عقود الإيجار السكنية والتجارية إلكترونياً عبر منصة إيجار، بما في ذلك حالات التوثيق من طرف واحد.
-- [توثيق عقود البيع](https://khayyalalatraf.github.io/khayyal.alatraf/sale-contract-documentation.html): توثيق عقود بيع العقارات السكنية والتجارية والأراضي.
-- [إدارة الأملاك](https://khayyalalatraf.github.io/khayyal.alatraf/property-management.html): متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك.
-- [ترخيص إعلانات العقار](https://khayyalalatraf.github.io/khayyal.alatraf/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
-- [المدونة](https://khayyalalatraf.github.io/khayyal.alatraf/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
-  - [عقد الإيجار غير الموثق](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unregistered-rental-contract.html)
-  - [رفع الإيجار أثناء سريان العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/rent-increase-during-contract.html)
-  - [استرداد مبلغ التأمين](https://khayyalalatraf.github.io/khayyal.alatraf/blog/security-deposit-refund.html)
-  - [من يدفع رسوم توثيق العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/who-pays-documentation-fees.html)
-  - [تجميد إيجارات الرياض 5 سنوات](https://khayyalalatraf.github.io/khayyal.alatraf/blog/riyadh-rent-freeze.html)
-  - [منصة ذاتية الخدمة أم مكتب عقاري مرخّص؟](https://khayyalalatraf.github.io/khayyal.alatraf/blog/self-service-vs-licensed-office.html)
-  - [عقد الإيجار من طرف واحد: كيف توثقه إذا امتنع الطرف الآخر؟](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unilateral-contract-documentation.html)
+- [الموقع الرئيسي](https://khayyal-alatraf.sa/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
+- [صفحة تملّك الأجانب (English)](https://khayyal-alatraf.sa/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
+- [خدماتنا في الرياض](https://khayyal-alatraf.sa/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
+- [خدماتنا في جدة](https://khayyal-alatraf.sa/realestate-jeddah.html): توثيق عقود، بيع وتأجير وإدارة أملاك في جدة، وخدمات تملّك الأجانب.
+- [خدماتنا في الدمام](https://khayyal-alatraf.sa/realestate-dammam.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الدمام، ووساطة عقود الشركات.
+- [توثيق عقود الإيجار](https://khayyal-alatraf.sa/rental-contract-documentation.html): توثيق عقود الإيجار السكنية والتجارية إلكترونياً عبر منصة إيجار، بما في ذلك حالات التوثيق من طرف واحد.
+- [توثيق عقود البيع](https://khayyal-alatraf.sa/sale-contract-documentation.html): توثيق عقود بيع العقارات السكنية والتجارية والأراضي.
+- [إدارة الأملاك](https://khayyal-alatraf.sa/property-management.html): متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك.
+- [ترخيص إعلانات العقار](https://khayyal-alatraf.sa/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
+- [المدونة](https://khayyal-alatraf.sa/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
+  - [عقد الإيجار غير الموثق](https://khayyal-alatraf.sa/blog/unregistered-rental-contract.html)
+  - [رفع الإيجار أثناء سريان العقد](https://khayyal-alatraf.sa/blog/rent-increase-during-contract.html)
+  - [استرداد مبلغ التأمين](https://khayyal-alatraf.sa/blog/security-deposit-refund.html)
+  - [من يدفع رسوم توثيق العقد](https://khayyal-alatraf.sa/blog/who-pays-documentation-fees.html)
+  - [تجميد إيجارات الرياض 5 سنوات](https://khayyal-alatraf.sa/blog/riyadh-rent-freeze.html)
+  - [منصة ذاتية الخدمة أم مكتب عقاري مرخّص؟](https://khayyal-alatraf.sa/blog/self-service-vs-licensed-office.html)
+  - [عقد الإيجار من طرف واحد: كيف توثقه إذا امتنع الطرف الآخر؟](https://khayyal-alatraf.sa/blog/unilateral-contract-documentation.html)
