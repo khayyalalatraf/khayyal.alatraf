@@ -27,6 +27,10 @@
 - [خدماتنا في الرياض](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
 - [خدماتنا في جدة](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-jeddah.html): توثيق عقود، بيع وتأجير وإدارة أملاك في جدة، وخدمات تملّك الأجانب.
 - [خدماتنا في الدمام](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-dammam.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الدمام، ووساطة عقود الشركات.
+- [توثيق عقود الإيجار](https://khayyalalatraf.github.io/khayyal.alatraf/rental-contract-documentation.html): توثيق عقود الإيجار السكنية والتجارية إلكترونياً عبر منصة إيجار، بما في ذلك حالات التوثيق من طرف واحد.
+- [توثيق عقود البيع](https://khayyalalatraf.github.io/khayyal.alatraf/sale-contract-documentation.html): توثيق عقود بيع العقارات السكنية والتجارية والأراضي.
+- [إدارة الأملاك](https://khayyalalatraf.github.io/khayyal.alatraf/property-management.html): متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك.
+- [ترخيص إعلانات العقار](https://khayyalalatraf.github.io/khayyal.alatraf/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
 - [المدونة](https://khayyalalatraf.github.io/khayyal.alatraf/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
   - [عقد الإيجار غير الموثق](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unregistered-rental-contract.html)
   - [رفع الإيجار أثناء سريان العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/rent-increase-during-contract.html)
