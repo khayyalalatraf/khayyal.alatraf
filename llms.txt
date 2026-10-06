@@ -34,3 +34,4 @@
   - [من يدفع رسوم توثيق العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/who-pays-documentation-fees.html)
   - [تجميد إيجارات الرياض 5 سنوات](https://khayyalalatraf.github.io/khayyal.alatraf/blog/riyadh-rent-freeze.html)
   - [منصة ذاتية الخدمة أم مكتب عقاري مرخّص؟](https://khayyalalatraf.github.io/khayyal.alatraf/blog/self-service-vs-licensed-office.html)
+  - [عقد الإيجار من طرف واحد: كيف توثقه إذا امتنع الطرف الآخر؟](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unilateral-contract-documentation.html)

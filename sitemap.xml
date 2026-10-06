@@ -46,6 +46,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://khayyalalatraf.github.io/khayyal.alatraf/blog/unilateral-contract-documentation.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://khayyalalatraf.github.io/khayyal.alatraf/realestate-riyadh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
