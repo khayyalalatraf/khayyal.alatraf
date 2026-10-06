@@ -45,4 +45,19 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://khayyalalatraf.github.io/khayyal.alatraf/realestate-riyadh.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://khayyalalatraf.github.io/khayyal.alatraf/realestate-jeddah.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://khayyalalatraf.github.io/khayyal.alatraf/realestate-dammam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

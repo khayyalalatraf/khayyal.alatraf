@@ -24,6 +24,9 @@
 ## Pages
 - [الموقع الرئيسي](https://khayyalalatraf.github.io/khayyal.alatraf/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
 - [صفحة تملّك الأجانب (English)](https://khayyalalatraf.github.io/khayyal.alatraf/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
+- [خدماتنا في الرياض](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
+- [خدماتنا في جدة](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-jeddah.html): توثيق عقود، بيع وتأجير وإدارة أملاك في جدة، وخدمات تملّك الأجانب.
+- [خدماتنا في الدمام](https://khayyalalatraf.github.io/khayyal.alatraf/realestate-dammam.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الدمام، ووساطة عقود الشركات.
 - [المدونة](https://khayyalalatraf.github.io/khayyal.alatraf/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
   - [عقد الإيجار غير الموثق](https://khayyalalatraf.github.io/khayyal.alatraf/blog/unregistered-rental-contract.html)
   - [رفع الإيجار أثناء سريان العقد](https://khayyalalatraf.github.io/khayyal.alatraf/blog/rent-increase-during-contract.html)
