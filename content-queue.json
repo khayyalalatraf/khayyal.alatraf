@@ -1,0 +1,25 @@
+{
+  "description": "قائمة مواضيع مقالات المدونة لخيال الأطراف العقارية. المهمة المجدولة اليومية تأخذ أول عنصر status=pending، تكتب المقال، تنشره، وتحدّث status إلى done مع التاريخ.",
+  "topics": [
+    {"slug": "sale-vs-rental-contract-differences", "title": "الفرق بين عقد البيع وعقد الإيجار العقاري وأثره القانوني", "status": "done", "published": "2026-10-07"},
+    {"slug": "fal-license-why-it-matters", "title": "ما هي رخصة فال ولماذا يجب التأكد منها قبل التعامل مع أي مكتب عقاري", "status": "pending"},
+    {"slug": "tenant-rights-saudi", "title": "حقوق المستأجر في النظام السعودي: دليل شامل", "status": "pending"},
+    {"slug": "landlord-rights-late-payment", "title": "حقوق المالك عند تأخر المستأجر عن سداد الإيجار", "status": "pending"},
+    {"slug": "early-contract-termination", "title": "كيف تفسخ عقد الإيجار قبل انتهاء مدته نظامياً", "status": "pending"},
+    {"slug": "eviction-legal-procedure", "title": "إجراءات الإخلاء النظامية في السعودية خطوة بخطوة", "status": "pending"},
+    {"slug": "auto-renewal-rental-contract", "title": "التجديد التلقائي لعقد الإيجار: ماذا يقول النظام السعودي", "status": "pending"},
+    {"slug": "sublease-rules-saudi", "title": "عقد الإيجار من الباطن: الضوابط والشروط النظامية", "status": "pending"},
+    {"slug": "foreign-ownership-2026-guide", "title": "تملك الأجانب للعقار في السعودية 2026: الشروط الكاملة", "status": "pending"},
+    {"slug": "ejar-platform-explained", "title": "منصة إيجار: كيف تعمل ولماذا أصبحت إلزامية لتوثيق العقود", "status": "pending"},
+    {"slug": "commercial-vs-residential-lease", "title": "الفروقات النظامية بين عقد الإيجار السكني والتجاري", "status": "pending"},
+    {"slug": "property-management-benefits", "title": "لماذا تحتاج لخدمة إدارة أملاك احترافية بدل الإدارة الذاتية", "status": "pending"},
+    {"slug": "real-estate-ad-license-requirements", "title": "شروط الحصول على ترخيص إعلان عقاري قبل النشر", "status": "pending"},
+    {"slug": "rental-dispute-resolution", "title": "كيف تحل نزاع إيجاري دون اللجوء للمحكمة", "status": "pending"},
+    {"slug": "property-inspection-checklist", "title": "قائمة فحص العقار قبل توقيع عقد الإيجار أو الشراء", "status": "pending"},
+    {"slug": "corporate-rental-brokerage", "title": "وساطة عقود الإيجار للشركات: كيف تدير عقارات متعددة بكفاءة", "status": "pending"},
+    {"slug": "land-sale-documentation", "title": "توثيق عقود بيع الأراضي: الخطوات والمستندات المطلوبة", "status": "pending"},
+    {"slug": "rent-payment-methods-ejar", "title": "طرق سداد الإيجار إلكترونياً عبر منصة إيجار", "status": "pending"},
+    {"slug": "broker-vs-self-service-risks", "title": "مخاطر التعامل العقاري دون وسيط مرخّص", "status": "pending"},
+    {"slug": "choosing-licensed-real-estate-office", "title": "كيف تختار مكتباً عقارياً مرخصاً وموثوقاً في السعودية", "status": "pending"}
+  ]
+}
