@@ -46,6 +46,7 @@
 - [إدارة الأملاك](https://khayyal-alatraf.sa/property-management.html): متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك.
 - [ترخيص إعلانات العقار](https://khayyal-alatraf.sa/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
 - [المدونة](https://khayyal-alatraf.sa/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
+  - [العقد المعلّق في منصة إيجار](https://khayyal-alatraf.sa/blog/pending-contract-ejar.html)
   - [نقل عقد الإيجار إلى فرد من الأسرة](https://khayyal-alatraf.sa/blog/transfer-contract-to-family-member.html)
   - [الفرق بين عقد البيع وعقد الإيجار](https://khayyal-alatraf.sa/blog/sale-vs-rental-contract-differences.html)
   - [عقد الإيجار غير الموثق](https://khayyal-alatraf.sa/blog/unregistered-rental-contract.html)
