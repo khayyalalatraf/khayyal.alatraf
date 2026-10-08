@@ -137,6 +137,8 @@
   .cta a{display:inline-block;background:var(--brass);color:var(--deep-2);text-decoration:none;font-weight:700;padding:14px 28px;}
   footer{text-align:center;padding:22px;color:#9B948C;font-size:.82rem;}
   @media(max-width:640px){h1{font-size:1.5rem;}}
+  .related a{color:var(--deep);text-decoration-color:var(--brass);text-underline-offset:4px;}
+  .related a:hover{color:var(--brass);}
 </style>
 </head>
 <body>
@@ -192,6 +194,16 @@
   </ul>
 </section>
 
+<section class="body related">
+  <h2>اقرأ أيضاً</h2>
+  <ul>
+    <li><a href="unregistered-rental-contract.html">عقد الإيجار غير الموثق: ما المخاطر وكيف تحمي نفسك؟</a></li>
+    <li><a href="pending-contract-ejar.html">العقد المعلّق في منصة إيجار: لماذا لا ينفّذ العقد وكيف تحله؟</a></li>
+    <li><a href="self-service-vs-licensed-office.html">توثيق عقد الإيجار: منصة ذاتية الخدمة أم مكتب عقاري مرخّص؟</a></li>
+    <li><a href="../rental-contract-documentation.html">خدمة توثيق عقود الإيجار عبر منصة إيجار</a></li>
+  </ul>
+</section>
+
 <section class="faq">
   <h2>أسئلة شائعة</h2>
   <details class="faq-item"><summary>هل توثيق عقد الإيجار في منصة إيجار يضمن أن المؤجر هو المالك؟</summary><p>التوثيق يسجّل البيانات والمستندات المرفوعة، لكنه لا يعفي المستأجر من التحقق بنفسه. اطلب صك الملكية أو وثيقة السجل العقاري وطابق اسم المالك وهويته مع من يوقّع، أو اطلب وكالة سارية تخوّله التأجير.</p></details>
@@ -207,5 +219,8 @@
 
 <footer>© خيال الأطراف العقارية — مرخّصة من الهيئة العامة للعقار، المملكة العربية السعودية</footer>
 
+<script>
+document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a'):null;if(!a||typeof gtag!=='function')return;var h=a.getAttribute('href')||'';var m=h.indexOf('wa.me')>-1?'whatsapp':h.indexOf('tel:')===0?'phone':h.indexOf('mailto:')===0?'email':h.indexOf('g.page')>-1?'review':null;if(!m)return;gtag('event','contact_click',{method:m,link_url:h});if(m==='whatsapp'||m==='phone'){gtag('event','generate_lead',{method:m});}});
+</script>
 </body>
 </html>

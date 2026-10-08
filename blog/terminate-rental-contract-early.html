@@ -138,6 +138,8 @@
   .cta a{display:inline-block;background:var(--brass);color:var(--deep-2);text-decoration:none;font-weight:700;padding:14px 28px;}
   footer{text-align:center;padding:22px;color:#9B948C;font-size:.82rem;}
   @media(max-width:640px){h1{font-size:1.5rem;}}
+  .related a{color:var(--deep);text-decoration-color:var(--brass);text-underline-offset:4px;}
+  .related a:hover{color:var(--brass);}
 </style>
 </head>
 <body>
@@ -219,6 +221,16 @@
   </ul>
 </section>
 
+<section class="body related">
+  <h2>اقرأ أيضاً</h2>
+  <ul>
+    <li><a href="security-deposit-refund.html">كيف تسترد مبلغ التأمين عند إخلاء العقار؟</a></li>
+    <li><a href="rent-increase-during-contract.html">هل يحق للمالك رفع الإيجار أثناء سريان العقد؟</a></li>
+    <li><a href="transfer-contract-to-family-member.html">نقل عقد الإيجار إلى فرد من الأسرة: الشروط والإجراءات</a></li>
+    <li><a href="../rental-contract-documentation.html">خدمة توثيق عقود الإيجار عبر منصة إيجار</a></li>
+  </ul>
+</section>
+
 <section class="faq">
   <h2>أسئلة شائعة</h2>
   <details class="faq-item"><summary>هل يمكن للمستأجر إلغاء عقد الإيجار الموثق في منصة إيجار بمفرده دون موافقة المالك؟</summary><p>لا تقدّم منصة إيجار للمستأجر خدمة فسخ من طرف واحد دون موافقة المالك. خدمة الفسخ المنفرد في المنصة متاحة للمؤجر فقط وتتطلب أمر تنفيذ من محكمة التنفيذ بإخلاء العقار. أما المستأجر فمساره المتاح هو طلب الإنهاء بالتراضي الذي يحتاج موافقة المالك، أو اللجوء للقضاء إن وُجد عذر مشروع.</p></details>
@@ -234,5 +246,8 @@
 
 <footer>© خيال الأطراف العقارية — مرخّصة من الهيئة العامة للعقار، المملكة العربية السعودية<br>المرجع النظامي: الهيئة العامة للعقار (دليل خدمات إيجار) ومنصة إيجار الرسمية</footer>
 
+<script>
+document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('a'):null;if(!a||typeof gtag!=='function')return;var h=a.getAttribute('href')||'';var m=h.indexOf('wa.me')>-1?'whatsapp':h.indexOf('tel:')===0?'phone':h.indexOf('mailto:')===0?'email':h.indexOf('g.page')>-1?'review':null;if(!m)return;gtag('event','contact_click',{method:m,link_url:h});if(m==='whatsapp'||m==='phone'){gtag('event','generate_lead',{method:m});}});
+</script>
 </body>
 </html>
