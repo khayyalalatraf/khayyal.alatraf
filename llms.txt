@@ -12,6 +12,7 @@
 
 - بيع وشراء العقارات السكنية والتجارية والأراضي
 - تأجير العقارات وربط الملاك بالمستأجرين
+- إدارة الأملاك: متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك
 - إبرام العقود الإلكترونية الموثقة عبر منصة إيجار، بموجب رخصة فال رقم 1200034111
 - خدمات تملّك العقار للأجانب في السعودية (استشارة وتنفيذ الإجراءات)
 - وساطة عقود إيجار للشركات الباحثة عن وسيط موثّق لعقاراتها
@@ -33,16 +34,17 @@
 ## Pages
 - [الموقع الرئيسي](https://khayyal-alatraf.sa/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
 - [صفحة تملّك الأجانب (English)](https://khayyal-alatraf.sa/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
-- [خدماتنا في الرياض](https://khayyal-alatraf.sa/realestate-riyadh.html): توثيق عقود، بيع وتأجير في الرياض.
-- [خدماتنا في جدة](https://khayyal-alatraf.sa/realestate-jeddah.html): توثيق عقود، بيع وتأجير في جدة، وخدمات تملّك الأجانب.
-- [خدماتنا في الدمام](https://khayyal-alatraf.sa/realestate-dammam.html): توثيق عقود، بيع وتأجير في الدمام، ووساطة عقود الشركات.
-- [خدماتنا في مكة المكرمة](https://khayyal-alatraf.sa/realestate-mecca.html): توثيق عقود، بيع وتأجير في مكة المكرمة.
-- [خدماتنا في المدينة المنورة](https://khayyal-alatraf.sa/realestate-medina.html): توثيق عقود، بيع وتأجير في المدينة المنورة.
-- [خدماتنا في الخبر](https://khayyal-alatraf.sa/realestate-khobar.html): توثيق عقود، بيع وتأجير في الخبر.
-- [خدماتنا في الطائف](https://khayyal-alatraf.sa/realestate-taif.html): توثيق عقود، بيع وتأجير في الطائف.
+- [خدماتنا في الرياض](https://khayyal-alatraf.sa/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
+- [خدماتنا في جدة](https://khayyal-alatraf.sa/realestate-jeddah.html): توثيق عقود، بيع وتأجير وإدارة أملاك في جدة، وخدمات تملّك الأجانب.
+- [خدماتنا في الدمام](https://khayyal-alatraf.sa/realestate-dammam.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الدمام، ووساطة عقود الشركات.
+- [خدماتنا في مكة المكرمة](https://khayyal-alatraf.sa/realestate-mecca.html): توثيق عقود، بيع وتأجير وإدارة أملاك في مكة المكرمة.
+- [خدماتنا في المدينة المنورة](https://khayyal-alatraf.sa/realestate-medina.html): توثيق عقود، بيع وتأجير وإدارة أملاك في المدينة المنورة.
+- [خدماتنا في الخبر](https://khayyal-alatraf.sa/realestate-khobar.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الخبر.
+- [خدماتنا في الطائف](https://khayyal-alatraf.sa/realestate-taif.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الطائف.
 - [عن المؤسسة](https://khayyal-alatraf.sa/about.html): من نحن، رخصة فال 1200034111، طريقة العمل والتحقق قبل التوقيع، وقنوات التواصل.
-- [توثيق عقود الإيجار](https://khayyal-alatraf.sa/rental-contract-documentation.html): توثيق عقود الإيجار السكنية والتجارية إلكترونياً عبر منصة إيجار، بما في ذلك حالات التوثيق من طرف واحد. رسوم خدمتنا: 120 ريال للعقد السكني و150 ريال للعقد التجاري (لا تشمل رسوم منصة إيجار).
+- [توثيق عقود الإيجار](https://khayyal-alatraf.sa/rental-contract-documentation.html): توثيق عقود الإيجار السكنية والتجارية إلكترونياً عبر منصة إيجار، بما في ذلك حالات التوثيق من طرف واحد.
 - [توثيق عقود البيع](https://khayyal-alatraf.sa/sale-contract-documentation.html): توثيق عقود بيع العقارات السكنية والتجارية والأراضي.
+- [إدارة الأملاك](https://khayyal-alatraf.sa/property-management.html): متابعة العقارات المؤجرة وتحصيل الإيجارات نيابة عن المالك.
 - [ترخيص إعلانات العقار](https://khayyal-alatraf.sa/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
 - [المدونة](https://khayyal-alatraf.sa/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
   - [فسخ عقد الإيجار قبل انتهاء مدته: الحالات والغرامة الفعلية](https://khayyal-alatraf.sa/blog/terminate-rental-contract-early.html)
