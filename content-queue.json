@@ -1,32 +1,217 @@
 {
-  "description": "قائمة مواضيع مقالات المدونة لخيال الأطراف العقارية. المهمة المجدولة اليومية تأخذ أول عنصر status=pending، تكتب المقال، تنشره، وتحدّث status إلى done مع التاريخ. المواضيع يجب أن تعالج مشكلة أو نزاعاً حقيقياً يبحث عنه الناس فعلياً، وليست تعريفات بديهية.",
+  "description": "قائمة مواضيع مقالات المدونة لخيال الأطراف العقارية. المهمة المجدولة اليومية تأخذ أول عنصر status=pending، تكتب المقال، تنشره، وتحدّث status إلى done مع التاريخ. المواضيع يجب أن تعالج مشكلة أو نزاعاً حقيقياً يبحث عنه الناس فعلياً، وليست تعريفات بديهية. قاعدة الكلمات المفتاحية (طلب المالك 2026-10-08): الناس يبحثون بالعامية ودون همزات (ايجار، الكتروني، ابي، اسوي، وش، على مين). ضع عبارة البحث العامية كما يكتبها الناس في العنوان أو أول فقرة، واجعل عناوين H2 والأسئلة الشائعة بصيغة أسئلة الناس الفعلية (مثل: «المستأجر ما دفع الايجار وش الحل؟»)، ويبقى شرح المحتوى بفصحى سهلة. لا تكدّس الكلمات ولا تكرّرها بشكل مصطنع. مصدر العبارات: اقتراحات بحث Google في السعودية.",
   "topics": [
-    {"slug": "lease-due-diligence-700k-loss", "title": "خسر 700 ألف ريال بسبب عقد إيجار «موثّق»: 7 فحوصات إلزامية قبل أن تستأجر أو تشتري عقاراً", "status": "done", "published": "2026-10-07", "note": "منشور أيضاً على LinkedIn"},
-    {"slug": "sale-vs-rental-contract-differences", "title": "الفرق بين عقد البيع وعقد الإيجار العقاري وأثره القانوني", "status": "done", "published": "2026-10-07", "note": "موضوع بديهي أقل فائدة من البقية حسب ملاحظة صاحب العمل - تُرك منشوراً لكن لن يُكرر هذا النمط"},
-    {"slug": "pending-contract-ejar", "title": "العقد المعلّق في منصة إيجار: لماذا لا ينفّذ العقد وكيف تحله؟", "status": "done", "published": "2026-10-07"},
-    {"slug": "terminate-rental-contract-early", "title": "فسخ عقد الإيجار قبل انتهاء مدته: الحالات المسموحة والغرامة الفعلية", "status": "done", "published": "2026-10-08", "keyword_focus": "فسخ عقد ايجار، الغاء عقد ايجار"},
-    {"slug": "amend-rental-contract-ejar", "title": "تعديل عقد إيجار موثّق في منصة إيجار: ما يمكن تغييره وما لا يمكن", "status": "pending", "keyword_focus": "تعديل عقد ايجار، منصة ايجار"},
-    {"slug": "furnished-rental-contract-terms", "title": "عقد إيجار الشقق المفروشة: الفروقات والشروط التي يغفل عنها كثيرون", "status": "pending", "keyword_focus": "عقد ايجار مفروش"},
-    {"slug": "ejar-contract-template-steps", "title": "كيف تكتب عقد إيجار صحيحاً على منصة إيجار خطوة بخطوة دون أخطاء تُبطله", "status": "pending", "keyword_focus": "نموذج عقد ايجار، عقد ايجار الكتروني"},
-    {"slug": "commercial-lease-contract-clauses", "title": "الشروط التي يجب أن يتضمنها عقد الإيجار التجاري ولا يكتبها كثيرون", "status": "pending", "keyword_focus": "عقد ايجار تجاري"},
-    {"slug": "rental-contract-valid-conditions", "title": "ما الشروط التي تجعل عقد الإيجار غير الموثق باطلاً أو ضعيف الحجية نظاماً؟", "status": "pending", "keyword_focus": "شروط عقد الايجار الصحيح"},
-    {"slug": "legal-eviction-grounds", "title": "متى يحق للمالك إخلاء المستأجر قبل نهاية العقد؟ أبرز الأسباب النظامية وما لا يُعد سبباً للإخلاء", "status": "pending", "note": "لا تحصر أسباب الإخلاء في عدد محدد ولا تستخدم كلمة فقط؛ اذكرها كأبرز الأسباب مع التنبيه أن النظام يتضمن أسباباً أخرى"},
-    {"slug": "late-rent-payment-15-days", "title": "ماذا يحدث فعلياً إذا تأخرت عن سداد الإيجار 15 يوماً؟", "status": "pending"},
-    {"slug": "who-pays-maintenance-costs", "title": "من يتحمل تكلفة الصيانة: المالك أم المستأجر؟ الفيصل في كل حالة", "status": "pending"},
-    {"slug": "unauthorized-sublease-consequences", "title": "التأجير من الباطن دون موافقة خطية: العواقب القانونية الكاملة", "status": "pending"},
-    {"slug": "changing-property-use-residential-commercial", "title": "تحويل العقار من سكني إلى تجاري: هل يحق لك دون موافقة المالك؟", "status": "pending"},
-    {"slug": "avoid-unwanted-auto-renewal", "title": "كيف تتجنب التجديد التلقائي لعقد لا ترغب في الاستمرار به؟", "status": "pending"},
-    {"slug": "landlord-refuses-deposit-refund", "title": "ماذا تفعل إذا رفض المالك إعادة مبلغ التأمين بعد الإخلاء؟", "status": "pending"},
-    {"slug": "common-rental-contract-mistakes", "title": "7 أخطاء شائعة في صياغة عقود الإيجار تُكلفك آلاف الريالات لاحقاً", "status": "pending"},
-    {"slug": "basic-maintenance-landlord-must-provide", "title": "الصيانة الأساسية التي يلتزم بها المالك نظامياً (تسرب المياه، المصعد، وغيرها)", "status": "pending"},
-    {"slug": "foreign-ownership-2026-guide", "title": "تملك الأجانب للعقار في السعودية 2026: الشروط والعقبات الفعلية", "status": "pending"},
-    {"slug": "rental-dispute-resolution-without-court", "title": "كيف تحل نزاعاً إيجارياً دون اللجوء للمحكمة؟ خطوات عملية", "status": "pending"},
-    {"slug": "property-inspection-before-signing", "title": "لماذا يخسر كثيرون تأمينهم بسبب تخطي فحص العقار قبل التوقيع؟", "status": "pending"},
-    {"slug": "corporate-multi-property-brokerage", "title": "كيف تدير شركتك عقوداً إيجارية لعدة عقارات دون أخطاء إدارية؟", "status": "pending"},
-    {"slug": "land-sale-documentation-pitfalls", "title": "أخطاء توثيق عقود بيع الأراضي التي تعطّل نقل الملكية", "status": "pending"},
-    {"slug": "rent-payment-methods-ejar", "title": "لماذا تتأخر مدفوعات الإيجار عبر إيجار أحياناً؟ وكيف تتجنب التأخير", "status": "pending"},
-    {"slug": "risks-of-unlicensed-broker", "title": "ماذا يخسر من يتعامل مع وسيط عقاري غير مرخّص عند حدوث مشكلة؟", "status": "pending"},
-    {"slug": "ad-license-violation-consequences", "title": "عواقب نشر إعلان عقاري دون ترخيص: الغرامات والمخاطر الفعلية", "status": "pending"},
-    {"slug": "tenant-structural-changes-liability", "title": "من يتحمل تكلفة التعديلات الإنشائية التي يجريها المستأجر؟", "status": "pending"}
+    {
+      "slug": "lease-due-diligence-700k-loss",
+      "title": "خسر 700 ألف ريال بسبب عقد إيجار «موثّق»: 7 فحوصات إلزامية قبل أن تستأجر أو تشتري عقاراً",
+      "status": "done",
+      "published": "2026-10-07",
+      "note": "منشور أيضاً على LinkedIn"
+    },
+    {
+      "slug": "sale-vs-rental-contract-differences",
+      "title": "الفرق بين عقد البيع وعقد الإيجار العقاري وأثره القانوني",
+      "status": "done",
+      "published": "2026-10-07",
+      "note": "موضوع بديهي أقل فائدة من البقية حسب ملاحظة صاحب العمل - تُرك منشوراً لكن لن يُكرر هذا النمط"
+    },
+    {
+      "slug": "pending-contract-ejar",
+      "title": "العقد المعلّق في منصة إيجار: لماذا لا ينفّذ العقد وكيف تحله؟",
+      "status": "done",
+      "published": "2026-10-07"
+    },
+    {
+      "slug": "terminate-rental-contract-early",
+      "title": "فسخ عقد الإيجار قبل انتهاء مدته: الحالات المسموحة والغرامة الفعلية",
+      "status": "done",
+      "published": "2026-10-08",
+      "keyword_focus": "فسخ عقد ايجار، الغاء عقد ايجار"
+    },
+    {
+      "slug": "citizen-account-rental-contract",
+      "title": "عقد ايجار لحساب المواطن: كيف تطلع عقد الكتروني موثّق من منصة إيجار؟",
+      "status": "pending",
+      "keywords": [
+        "عقد ايجار حساب المواطن",
+        "ابي عقد ايجار عشان حساب المواطن",
+        "عقد ايجار الكتروني لحساب المواطن",
+        "ماعندي عقد ايجار حساب المواطن"
+      ],
+      "note": "تحقق من اشتراطات حساب المواطن من موقعه الرسمي ca.gov.sa فقط"
+    },
+    {
+      "slug": "paper-rental-contract-to-electronic",
+      "title": "عندي عقد ايجار ورقي: هل يحميني؟ وكيف أحوله لعقد الكتروني موثّق",
+      "status": "pending",
+      "keywords": [
+        "عقد ايجار ورقي",
+        "توثيق عقد ايجار ورقي",
+        "عقد ايجار ورقي حساب المواطن",
+        "توثيق عقد ايجار ورقي من طرف واحد"
+      ]
+    },
+    {
+      "slug": "owner-real-estate-ad-license",
+      "title": "ترخيص اعلان عقاري للمالك: كيف تطلعه قبل ما تنزّل اعلانك؟",
+      "status": "pending",
+      "keywords": [
+        "ترخيص اعلان عقاري مالك",
+        "ترخيص اعلان عقاري حراج",
+        "ترخيص إعلان عقاري للمالك"
+      ],
+      "note": "المصدر: rega.gov.sa فقط"
+    },
+    {
+      "slug": "heirs-property-deed-transfer",
+      "title": "افراغ صك عقار للورثة: الخطوات والأخطاء اللي تعطّل الإفراغ",
+      "status": "pending",
+      "keywords": [
+        "افراغ صك ورثة",
+        "افراغ صك عقاري للورثة",
+        "افراغ صك مشاع"
+      ],
+      "note": "المصدر: وزارة العدل/ناجز فقط"
+    },
+    {
+      "slug": "renew-expired-rental-contract",
+      "title": "تجديد عقد ايجار منتهي: وش تسوي إذا انتهى العقد وما جددته؟",
+      "status": "pending",
+      "keywords": [
+        "تجديد عقد ايجار منتهي",
+        "تجديد عقد ايجار تلقائي",
+        "تجديد عقد إيجار بدون مكتب"
+      ]
+    },
+    {
+      "slug": "amend-rental-contract-ejar",
+      "title": "تعديل عقد إيجار موثّق في منصة إيجار: ما يمكن تغييره وما لا يمكن",
+      "status": "pending",
+      "keyword_focus": "تعديل عقد ايجار، منصة ايجار"
+    },
+    {
+      "slug": "furnished-rental-contract-terms",
+      "title": "عقد إيجار الشقق المفروشة: الفروقات والشروط التي يغفل عنها كثيرون",
+      "status": "pending",
+      "keyword_focus": "عقد ايجار مفروش"
+    },
+    {
+      "slug": "ejar-contract-template-steps",
+      "title": "كيف تكتب عقد إيجار صحيحاً على منصة إيجار خطوة بخطوة دون أخطاء تُبطله",
+      "status": "pending",
+      "keyword_focus": "نموذج عقد ايجار، عقد ايجار الكتروني"
+    },
+    {
+      "slug": "commercial-lease-contract-clauses",
+      "title": "الشروط التي يجب أن يتضمنها عقد الإيجار التجاري ولا يكتبها كثيرون",
+      "status": "pending",
+      "keyword_focus": "عقد ايجار تجاري"
+    },
+    {
+      "slug": "rental-contract-valid-conditions",
+      "title": "ما الشروط التي تجعل عقد الإيجار غير الموثق باطلاً أو ضعيف الحجية نظاماً؟",
+      "status": "pending",
+      "keyword_focus": "شروط عقد الايجار الصحيح"
+    },
+    {
+      "slug": "legal-eviction-grounds",
+      "title": "متى يحق للمالك إخلاء المستأجر قبل نهاية العقد؟ أبرز الأسباب النظامية وما لا يُعد سبباً للإخلاء",
+      "status": "pending",
+      "note": "لا تحصر أسباب الإخلاء في عدد محدد ولا تستخدم كلمة فقط؛ اذكرها كأبرز الأسباب مع التنبيه أن النظام يتضمن أسباباً أخرى"
+    },
+    {
+      "slug": "late-rent-payment-15-days",
+      "title": "المستأجر ما دفع الايجار: وش يصير بعد التأخر وكيف يطالب المالك نظامياً؟",
+      "status": "pending",
+      "keywords": [
+        "المستاجر ما دفع الايجار",
+        "المستأجر الذي لا يدفع الايجار",
+        "مستاجر ما دفع"
+      ]
+    },
+    {
+      "slug": "who-pays-maintenance-costs",
+      "title": "من يتحمل تكلفة الصيانة: المالك أم المستأجر؟ الفيصل في كل حالة",
+      "status": "pending"
+    },
+    {
+      "slug": "unauthorized-sublease-consequences",
+      "title": "التأجير من الباطن دون موافقة خطية: العواقب القانونية الكاملة",
+      "status": "pending"
+    },
+    {
+      "slug": "changing-property-use-residential-commercial",
+      "title": "تحويل العقار من سكني إلى تجاري: هل يحق لك دون موافقة المالك؟",
+      "status": "pending"
+    },
+    {
+      "slug": "avoid-unwanted-auto-renewal",
+      "title": "كيف تتجنب التجديد التلقائي لعقد لا ترغب في الاستمرار به؟",
+      "status": "pending",
+      "keywords": [
+        "تجديد عقد ايجار تلقائي",
+        "الغاء التجديد التلقائي لعقد الايجار"
+      ]
+    },
+    {
+      "slug": "landlord-refuses-deposit-refund",
+      "title": "ماذا تفعل إذا رفض المالك إعادة مبلغ التأمين بعد الإخلاء؟",
+      "status": "pending"
+    },
+    {
+      "slug": "common-rental-contract-mistakes",
+      "title": "7 أخطاء شائعة في صياغة عقود الإيجار تُكلفك آلاف الريالات لاحقاً",
+      "status": "pending"
+    },
+    {
+      "slug": "basic-maintenance-landlord-must-provide",
+      "title": "الصيانة الأساسية التي يلتزم بها المالك نظامياً (تسرب المياه، المصعد، وغيرها)",
+      "status": "pending"
+    },
+    {
+      "slug": "foreign-ownership-2026-guide",
+      "title": "تملك الأجانب للعقار في السعودية 2026: الشروط والعقبات الفعلية",
+      "status": "pending"
+    },
+    {
+      "slug": "rental-dispute-resolution-without-court",
+      "title": "كيف تحل نزاعاً إيجارياً دون اللجوء للمحكمة؟ خطوات عملية",
+      "status": "pending"
+    },
+    {
+      "slug": "property-inspection-before-signing",
+      "title": "لماذا يخسر كثيرون تأمينهم بسبب تخطي فحص العقار قبل التوقيع؟",
+      "status": "pending"
+    },
+    {
+      "slug": "corporate-multi-property-brokerage",
+      "title": "كيف تدير شركتك عقوداً إيجارية لعدة عقارات دون أخطاء إدارية؟",
+      "status": "pending"
+    },
+    {
+      "slug": "land-sale-documentation-pitfalls",
+      "title": "أخطاء توثيق عقود بيع الأراضي التي تعطّل نقل الملكية",
+      "status": "pending"
+    },
+    {
+      "slug": "rent-payment-methods-ejar",
+      "title": "لماذا تتأخر مدفوعات الإيجار عبر إيجار أحياناً؟ وكيف تتجنب التأخير",
+      "status": "pending"
+    },
+    {
+      "slug": "risks-of-unlicensed-broker",
+      "title": "ماذا يخسر من يتعامل مع وسيط عقاري غير مرخّص عند حدوث مشكلة؟",
+      "status": "pending"
+    },
+    {
+      "slug": "ad-license-violation-consequences",
+      "title": "عواقب نشر إعلان عقاري دون ترخيص: الغرامات والمخاطر الفعلية",
+      "status": "pending"
+    },
+    {
+      "slug": "tenant-structural-changes-liability",
+      "title": "من يتحمل تكلفة التعديلات الإنشائية التي يجريها المستأجر؟",
+      "status": "pending"
+    }
   ]
 }
