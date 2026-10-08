@@ -9,6 +9,7 @@
 - مؤسسة فردية (لا "شركة")، رخصة فال 1200034111 من الهيئة العامة للعقار.
 - يخدم جميع مناطق المملكة، دون مكتب يستقبل العملاء (نشاط يخدم منطقة).
 - الجوال 0530592272 · واتساب موثّق https://wa.me/966530592272 · البريد khayyal.alatraf@outlook.sa
+- رابط تقييم Google: https://g.page/r/CdXwqfepqlPsEAE/review (يُضاف لقوائم التواصل ويُشجَّع العملاء عليه — لا تقييمات مختلقة أبداً)
 - إكس https://x.com/khayyalalatraf · تيك توك https://www.tiktok.com/@khayyal_alatraf
 - خبرة +5 سنوات، +1,870 عقد إيجار موثّق عبر إيجار.
 - الموقع: GitHub Pages، المستودع khayyalalatraf/khayyal.alatraf فرع main، الدومين khayyal-alatraf.sa، Google Analytics G-2ENB3E9DVF.
