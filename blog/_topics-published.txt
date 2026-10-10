@@ -9,3 +9,12 @@ transfer-contract-to-family-member
 lease-due-diligence-700k-loss
 terminate-rental-contract-early
 citizen-account-rental-contract
+najiz-eviction-timeline-landlord
+refuse-renewal-cases-landlord
+unregistered-old-leases-penalty
+rental-contract-abha
+rental-contract-tabuk
+rental-contract-buraidah
+rental-contract-alahsa
+rental-contract-jazan
+rental-contract-hail
