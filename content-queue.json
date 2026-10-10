@@ -133,7 +133,7 @@
         "بيع عقار الورثة",
         "قسمة العقار بين الورثة"
       ],
-      "note": "للملاك الورثة. المصادر: وزارة العدل/ناجز، إنفاذ (المزاد)، وخبر الوطن 1131796. نبّه أنها معلومات عامة والقضايا للمحامي. خدمتنا: تنسيق وتقييم وبيع بالتراضي قبل المزاد وإدارة مؤقتة. لا تكرر heirs-property-deed-transfer."
+      "note": "للملاك الورثة. المصادر: وزارة العدل/ناجز، إنفاذ (المزاد)، وخبر الوطن 1131796. نبّه أنها معلومات عامة. خدمتنا: تنسيق وتقييم وبيع بالتراضي قبل المزاد وإدارة مؤقتة. لا تكرر heirs-property-deed-transfer."
     },
     {
       "slug": "owner-real-estate-ad-license",
@@ -255,7 +255,8 @@
     {
       "slug": "who-pays-maintenance-costs",
       "title": "من يتحمل تكلفة الصيانة: المالك أم المستأجر؟ الفيصل في كل حالة",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "paper-deed-real-estate-registry",
@@ -284,7 +285,8 @@
     {
       "slug": "unauthorized-sublease-consequences",
       "title": "التأجير من الباطن دون موافقة خطية: العواقب القانونية الكاملة",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "buyer-mortgage-seller-steps",
@@ -302,7 +304,8 @@
       "slug": "commercial-lease-contract-clauses",
       "title": "الشروط التي يجب أن يتضمنها عقد الإيجار التجاري ولا يكتبها كثيرون",
       "status": "pending",
-      "keyword_focus": "عقد ايجار تجاري"
+      "keyword_focus": "عقد ايجار تجاري",
+      "note": ""
     },
     {
       "slug": "avoid-unwanted-auto-renewal",
@@ -349,7 +352,8 @@
       "slug": "furnished-rental-contract-terms",
       "title": "عقد إيجار الشقق المفروشة: الفروقات والشروط التي يغفل عنها كثيرون",
       "status": "pending",
-      "keyword_focus": "عقد ايجار مفروش"
+      "keyword_focus": "عقد ايجار مفروش",
+      "note": ""
     },
     {
       "slug": "ejar-contract-template-steps",
@@ -374,7 +378,8 @@
     {
       "slug": "changing-property-use-residential-commercial",
       "title": "تحويل العقار من سكني إلى تجاري: هل يحق لك دون موافقة المالك؟",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "landlord-refuses-deposit-refund",
@@ -385,32 +390,38 @@
     {
       "slug": "common-rental-contract-mistakes",
       "title": "7 أخطاء شائعة في صياغة عقود الإيجار تُكلفك آلاف الريالات لاحقاً",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "basic-maintenance-landlord-must-provide",
       "title": "الصيانة الأساسية التي يلتزم بها المالك نظامياً (تسرب المياه، المصعد، وغيرها)",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "foreign-ownership-2026-guide",
       "title": "تملك الأجانب للعقار في السعودية 2026: الشروط والعقبات الفعلية",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "rental-dispute-resolution-without-court",
       "title": "كيف تحل نزاعاً إيجارياً دون اللجوء للمحكمة؟ خطوات عملية",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "property-inspection-before-signing",
       "title": "لماذا يخسر كثيرون تأمينهم بسبب تخطي فحص العقار قبل التوقيع؟",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "corporate-multi-property-brokerage",
       "title": "كيف تدير شركتك عقوداً إيجارية لعدة عقارات دون أخطاء إدارية؟",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "land-sale-documentation-pitfalls",
@@ -427,17 +438,20 @@
     {
       "slug": "risks-of-unlicensed-broker",
       "title": "ماذا يخسر من يتعامل مع وسيط عقاري غير مرخّص عند حدوث مشكلة؟",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "ad-license-violation-consequences",
       "title": "عواقب نشر إعلان عقاري دون ترخيص: الغرامات والمخاطر الفعلية",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "tenant-structural-changes-liability",
       "title": "من يتحمل تكلفة التعديلات الإنشائية التي يجريها المستأجر؟",
-      "status": "pending"
+      "status": "pending",
+      "note": ""
     },
     {
       "slug": "late-rent-payment-15-days",
