@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:C;src:url(Cairo.ttf) format('truetype');font-weight:200 1000}
+:root{--ink:#2B2A28;--deep:#2E2C2A;--brass:#B69B7B;--brass-d:#9C8060;--brass-l:#EFE7DD;--paper:#F7F4EF;--line:#E3DDD3;--muted:#716C67}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;font-family:C;background:var(--paper);color:var(--ink)}
+#bg{position:absolute;inset:0;overflow:hidden}
+.stripe{position:absolute;width:2600px;height:2px;background:linear-gradient(90deg,transparent,rgba(182,155,123,.35),transparent);transform-origin:center}
+#wm{position:absolute;width:1400px;left:-160px;top:620px;opacity:.06;filter:grayscale(1)}
+#glow{position:absolute;width:1300px;height:1300px;border-radius:50%;background:radial-gradient(circle,rgba(182,155,123,.20),transparent 62%);left:-110px;top:300px}
+#top{position:absolute;top:118px;right:90px;left:90px;display:flex;align-items:center;justify-content:space-between}
+#top img{height:84px}
+#series{font-size:34px;font-weight:800;color:var(--paper);background:var(--deep);padding:8px 28px;border-radius:40px}
+#prog{position:absolute;top:70px;right:90px;left:90px;height:8px;border-radius:8px;background:var(--line);overflow:hidden}
+#prog i{display:block;height:100%;width:0;background:var(--brass);border-radius:8px;margin-right:0}
+#foot{position:absolute;bottom:400px;right:90px;left:150px;text-align:center;font-size:30px;font-weight:700;color:var(--muted)}
+.scene{position:absolute;right:90px;left:150px;top:420px;bottom:470px;display:flex;flex-direction:column;justify-content:center;opacity:0}
+.kicker{font-size:52px;font-weight:800;color:var(--brass-d);margin-bottom:26px}
+.hook{font-size:118px;font-weight:900;line-height:1.28;color:var(--deep)}
+.hook .w{display:inline-block}
+.uline{height:14px;background:var(--brass);border-radius:10px;margin-top:34px;width:0}
+.card{background:#fff;border:2px solid var(--line);border-radius:48px;padding:80px 60px 70px;box-shadow:0 30px 60px rgba(46,44,42,.08);position:relative}
+.num{position:absolute;top:-58px;right:48px;width:116px;height:116px;border-radius:50%;background:var(--deep);color:var(--paper);font-size:62px;font-weight:900;display:flex;align-items:center;justify-content:center;border:8px solid var(--paper)}
+.ctitle{font-size:82px;font-weight:900;line-height:1.3;color:var(--deep);margin-top:26px}
+.cbody{font-size:60px;font-weight:600;line-height:1.55;color:var(--ink);margin-top:24px}
+.cbody b{color:var(--brass-d);font-weight:900}
+.big{font-size:94px;font-weight:900;line-height:1.35;color:var(--deep)}
+.big b{color:var(--brass-d)}
+.ref{font-size:44px;font-weight:700;line-height:1.6;color:var(--muted);border-right:10px solid var(--brass);padding-right:34px}
+.cta{align-items:center;text-align:center}
+.cta .lg{width:620px;margin-bottom:46px}
+.cta .t1{font-size:78px;font-weight:900;color:var(--deep);line-height:1.3}
+.wa{margin-top:44px;display:inline-flex;align-items:center;gap:22px;background:#1F8F57;color:#fff;font-size:58px;font-weight:900;padding:26px 56px;border-radius:80px}
+.wa svg{width:64px;height:64px}
+.cta .t2{margin-top:40px;font-size:40px;font-weight:700;color:var(--muted);line-height:1.6}
+.chip{display:inline-block;font-size:40px;font-weight:800;background:var(--brass-l);color:var(--deep);padding:10px 30px;border-radius:30px;margin:10px 0 0 14px}
+</style></head><body>
+<div id="bg"><div id="glow"></div><img id="wm" src="logo.png"></div>
+<div id="prog"><i></i></div>
+<div id="top"><img src="logo.png"><span id="series"></span></div>
+<div id="stage"></div>
+<div id="foot">خيال الأطراف العقارية · وسيط عقاري مرخّص · فال 1200034111</div>
+<script>
+const WA='<svg viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.4.7 4.7 1.9 6.7L3 29l7-2.2c1.9 1 4 1.6 6 1.6 7 0 12.6-5.6 12.6-12.6S23 3 16 3zm0 23c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.3 1.3-4-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.6C5.5 9.8 10.2 5.2 16 5.2s10.5 4.6 10.5 10.4S21.8 26 16 26zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>';
+const E={o:t=>1-Math.pow(1-t,3),io:t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2,back:t=>{const c=1.7;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)}};
+const cl=(x)=>Math.max(0,Math.min(1,x));
+let SPEC,scenes=[],T=0;
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function rich(s){return esc(s).replace(/\*([^*]+)\*/g,'<b>$1</b>').replace(/\n/g,'<br>')}
+function build(spec){SPEC=spec;document.getElementById('series').textContent=spec.series||'';
+ if(!spec.series)document.getElementById('series').style.display='none';
+ const st=document.getElementById('stage');let t0=0;
+ const bg=document.getElementById('bg');for(let i=0;i<7;i++){const s=document.createElement('div');s.className='stripe';s.style.top=(180+i*270)+'px';s.style.left='-760px';s.dataset.i=i;bg.appendChild(s)}
+ spec.scenes.forEach((sc,i)=>{const d=document.createElement('div');d.className='scene '+(sc.type==='cta'?'cta':'');let h='';
+  if(sc.type==='hook'){h=(sc.kicker?`<div class="kicker">${esc(sc.kicker)}</div>`:'')+`<div class="hook">`+sc.text.split('\n').map(l=>l.split(' ').map(w=>`<span class="w">${esc(w)}</span>`).join(' ')).join('<br>')+`</div><div class="uline"></div>`}
+  else if(sc.type==='point'){h=`<div class="card"><div class="num">${sc.n}</div><div class="ctitle">${rich(sc.title)}</div>${sc.body?`<div class="cbody">${rich(sc.body)}</div>`:''}</div>`}
+  else if(sc.type==='big'){h=`<div class="big">${rich(sc.text)}</div>`+(sc.chips?`<div style="margin-top:36px">${sc.chips.map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>`:'')}
+  else if(sc.type==='ref'){h=(sc.lead?`<div class="big" style="font-size:70px;margin-bottom:46px">${rich(sc.lead)}</div>`:'')+`<div class="ref">${rich(sc.text)}</div>`}
+  else if(sc.type==='cta'){h=`<img class="lg" src="logo.png"><div class="t1">${rich(sc.text||'عندك حالة مشابهة؟')}</div><div class="wa">${WA}<span>راسلنا واتساب</span></div><div class="t2">${rich(sc.sub||'الرابط في البايو · نخدمك في كل المملكة')}</div>`}
+  d.innerHTML=h;st.appendChild(d);scenes.push({el:d,sc,t0,t1:t0+sc.dur});t0+=sc.dur});
+ T=t0;return T}
+function render(t){
+ document.querySelector('#prog i').style.width=(100*cl(t/T))+'%';
+ document.querySelectorAll('.stripe').forEach(s=>{const i=+s.dataset.i;s.style.transform=`rotate(-24deg) translateX(${((t*40+i*180)%600)-300}px)`});
+ const wm=document.getElementById('wm');wm.style.transform=`translateY(${Math.sin(t/3)*30}px) scale(${1.02+Math.sin(t/5)*.03})`;
+ document.getElementById('glow').style.transform=`translate(${Math.sin(t/4)*80}px,${Math.cos(t/5)*60}px)`;
+ for(const s of scenes){const el=s.el,d=s.sc.dur,lt=t-s.t0;
+  if(lt<0||lt>d){el.style.opacity=0;continue}
+  const tin=cl(lt/.55),tout=cl((lt-(d-.4))/.4);
+  el.style.opacity=E.o(tin)*(1-tout);
+  el.style.transform=`translateY(${(1-E.o(tin))*70-tout*40}px)`;
+  const ty=s.sc.type;
+  if(ty==='hook'){el.querySelectorAll('.w').forEach((w,i)=>{const p=E.back(cl((lt-.12*i)/.45));w.style.opacity=cl((lt-.12*i)/.3);w.style.transform=`translateY(${(1-p)*60}px) scale(${.85+.15*p})`});
+   el.querySelector('.uline').style.width=(E.io(cl((lt-.6)/.8))*62)+'%'}
+  if(ty==='point'){const c=el.querySelector('.card');const p=E.back(cl(lt/.6));c.style.transform=`translateX(${(1-p)*-160}px)`;
+   const n=el.querySelector('.num');const q=E.back(cl((lt-.25)/.5));n.style.transform=`scale(${q}) rotate(${(1-q)*-90}deg)`}
+  if(ty==='big'||ty==='ref'){const p=E.o(tin);el.style.transform+=` scale(${.94+.06*p})`;
+   el.querySelectorAll('.chip').forEach((c,i)=>{const q=E.back(cl((lt-.5-.15*i)/.4));c.style.opacity=cl((lt-.5-.15*i)/.3);c.style.transform=`scale(${q})`})}
+  if(ty==='cta'){const w=el.querySelector('.wa');const q=1+Math.sin(lt*5)*.03*cl((lt-.8)/.3);w.style.transform=`scale(${E.back(cl((lt-.35)/.5))*q})`;
+   el.querySelector('.lg').style.transform=`scale(${.9+.1*E.o(tin)})`}
+ }}
+window.build=build;window.render=render;
+</script></body></html>
