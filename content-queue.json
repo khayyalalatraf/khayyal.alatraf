@@ -158,10 +158,22 @@
       "note": "صفحة/مقال بالإنجليزية: lang=en dir=ltr، 120 SAR، إيجار، نقل العداد، الضمان. مصادر رسمية فقط."
     },
     {
+      "slug": "owner-ad-license-whatsapp-groups",
+      "title": "أبي أعلن عقاري في قروبات واتساب وحساباتي: هل أحتاج ترخيص إعلان؟",
+      "status": "pending",
+      "note": "بيع/تسويق: ترخيص الإعلان لكل إعلان عبر وسيط بعقد وساطة؛ تحقق من rega.gov.sa ولا تذكر رسوماً غير مؤكدة؛ اربط ad-licensing.html."
+    },
+    {
       "slug": "foreign-ownership-residents-guide",
       "title": "المقيم يقدر يتملك عقار في السعودية؟ الخطوات بعد نظام تملك غير السعوديين",
       "status": "pending",
       "note": "النظام نافذ 22 يناير 2026، بوابة «عقارات السعودية»، قيود مكة والمدينة (الشرق 169163). اربط بـ foreign-ownership.html."
+    },
+    {
+      "slug": "white-land-fees-sell-or-develop",
+      "title": "عندي أرض بيضاء والرسوم زادت: أبيع ولا أطوّر؟",
+      "status": "pending",
+      "note": "بيع: الرسوم حتى 10% والحد 5,000 م² (العين يوليو 2025)؛ تحقق من اللائحة التنفيذية الرسمية؛ اربط sale-contract-documentation.html."
     },
     {
       "slug": "rent-renewal-reminder-landlords",
@@ -170,10 +182,22 @@
       "note": "بوابة جذب للملاك: تذكير مجاني بالمواعيد؛ اربط بإدارة الأملاك."
     },
     {
+      "slug": "brokerage-commission-who-pays",
+      "title": "عمولة السعي في البيع والإيجار: كم وعلى مين؟",
+      "status": "pending",
+      "note": "بيع/إيجار: الأصل 2.5% ما لم يُتفق كتابة؛ تحقق من نظام الوساطة ولائحته؛ اربط الخدمات."
+    },
+    {
       "slug": "heir-living-in-inherited-house",
       "title": "أحد الورثة ساكن في بيت الورثة بدون إيجار: وش حق البقية؟",
       "status": "pending",
       "note": "فجوة عقارات الورثة؛ تحقق من نصوص نظام المعاملات المدنية حول انتفاع الشريك؛ إشارة الشريك القانوني بلا اسم أو بالاسم حسب PLAYBOOK"
+    },
+    {
+      "slug": "selling-rented-building-to-investor",
+      "title": "أبي أبيع عمارتي وهي مؤجرة: هل العقود تنتقل للمشتري؟",
+      "status": "pending",
+      "note": "بيع: عقود إيجار قائمة عند البيع؛ تحقق من نظام المعاملات المدنية/إيجار؛ اربط البيع والإدارة."
     },
     {
       "slug": "rett-real-estate-tax-who-pays",
@@ -186,6 +210,12 @@
         "مين يدفع ضريبة التصرفات العقارية"
       ],
       "note": "للبائعين. المصدر: هيئة الزكاة والضريبة والجمارك zatca.gov.sa فقط (النسبة والإعفاءات كالورثة والمسكن الأول). اربط بصفحة البيع sale-contract-documentation."
+    },
+    {
+      "slug": "find-tenant-commercial-shop",
+      "title": "محلي فاضي: كيف ألقى مستأجر تجاري بسرعة؟",
+      "status": "pending",
+      "note": "تأجير تجاري ووساطة 2.5% أول سنة؛ اربط commercial-rental-contract.html."
     },
     {
       "slug": "ejar-lease-inherited-property",
