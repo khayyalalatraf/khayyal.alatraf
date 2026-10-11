@@ -22,3 +22,6 @@ worker-housing-rental-contract
 tenant-wants-to-document-contract
 heirs-one-refuses-sale
 vacant-buildings-white-land-fees
+heirs-property-partnership
+inherited-property-temporary-management
+sell-my-share-inherited-property
