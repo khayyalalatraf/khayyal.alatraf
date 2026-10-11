@@ -1,5 +1,6 @@
 // يحوّل مواصفات فيديو (JSON) إلى MP4 عمودي 1080×1920 بهوية خيال الأطراف.
 // الاستخدام: node _tiktok/render/render.js <spec.json> <out.mp4> [fps=30]
+// تعليق صوتي: أضف "audio":"../voice/<slug>.mp3" في المواصفات (مسار نسبي لملف المواصفات) فيُدمج تلقائياً.
 // يتطلب: playwright (Chromium) و ffmpeg. الصوت: مسار صامت؛ يضيف المالك صوتاً رائجاً من مكتبة تيك توك التجارية عند النشر.
 const {chromium}=require('playwright');const {spawn}=require('child_process');const fs=require('fs');const path=require('path');
 (async()=>{
@@ -9,7 +10,7 @@ const {chromium}=require('playwright');const {spawn}=require('child_process');co
  await p.goto('file://'+path.join(__dirname,'template.html'));await p.evaluate(()=>document.fonts.ready);
  const T=await p.evaluate(s=>build(s),spec);await p.waitForTimeout(400);
  const n=Math.round(T*fps);
- const ff=spawn('ffmpeg',['-y','-loglevel','error','-f','image2pipe','-framerate',String(fps),'-i','-','-f','lavfi','-i','anullsrc=r=44100:cl=stereo','-shortest','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','96k','-movflags','+faststart',out],{stdio:['pipe','inherit','inherit']});
+ const ff=spawn('ffmpeg',['-y','-loglevel','error','-f','image2pipe','-framerate',String(fps),'-i','-',...(spec.audio?['-i',path.resolve(path.dirname(specPath),spec.audio),'-af','apad']:['-f','lavfi','-i','anullsrc=r=44100:cl=stereo']),'-shortest','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','96k','-movflags','+faststart',out],{stdio:['pipe','inherit','inherit']});
  for(let i=0;i<n;i++){await p.evaluate(t=>render(t),i/fps);const buf=await p.screenshot({type:'jpeg',quality:92});
   if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r));}
  // غلاف: لحظة اكتمال الخطاف
