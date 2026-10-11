@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}}</title>
+<style>
+@font-face{font-family:Tajawal;src:url('{{FONTS}}/ofl/tajawal/Tajawal-Regular.ttf');font-weight:400}
+@font-face{font-family:Tajawal;src:url('{{FONTS}}/ofl/tajawal/Tajawal-Medium.ttf');font-weight:500}
+@font-face{font-family:Tajawal;src:url('{{FONTS}}/ofl/tajawal/Tajawal-Bold.ttf');font-weight:700}
+@font-face{font-family:Tajawal;src:url('{{FONTS}}/ofl/tajawal/Tajawal-ExtraBold.ttf');font-weight:800}
+@font-face{font-family:Kufi;src:url('{{FONTS}}/ofl/notokufiarabic/NotoKufiArabic[wght].ttf');font-weight:100 900}
+:root{--ink:#1d2a2b;--muted:#5d6b6c;--brand:#0f4b4c;--brand2:#14625f;--sand:#b08d57;--sandbg:#f6f0e6;--line:#dfe5e4;--soft:#eef4f3}
+@page{size:A4;margin:18mm 16mm 20mm 16mm;
+  @bottom-center{content:counter(page);font-family:Tajawal;font-size:9pt;color:#8a9696}}
+@page cover{margin:0;@bottom-center{content:none}}
+*{box-sizing:border-box}
+body{font-family:Tajawal,sans-serif;color:var(--ink);font-size:11pt;line-height:1.75;margin:0}
+h1,h2,h3{font-family:Kufi,Tajawal;color:var(--brand);line-height:1.5;margin:0}
+h2{font-size:17pt;font-weight:700;margin:0 0 4mm;padding-bottom:2.5mm;border-bottom:2px solid var(--sand);display:flex;align-items:center;gap:3mm}
+h2 .n{display:inline-flex;align-items:center;justify-content:center;width:9mm;height:9mm;border-radius:50%;background:var(--brand);color:#fff;font-size:11pt;font-family:Tajawal;font-weight:700}
+h3{font-size:12.5pt;font-weight:700;margin:5mm 0 2mm}
+p{margin:0 0 3mm}
+.lead{font-size:12pt;color:var(--ink)}
+.muted{color:var(--muted)}
+section{page-break-before:always}
+section.flow{page-break-before:auto;margin-top:8mm}
+ul{margin:0 0 3mm;padding-right:5mm}
+li{margin-bottom:1.5mm}
+strong{color:var(--brand);font-weight:700}
+/* cover */
+.cover{page:cover;height:297mm;width:210mm;position:relative;background:var(--brand);color:#fff;overflow:hidden}
+.cover .band{position:absolute;inset:0 auto 0 0;width:58mm;background:var(--brand2)}
+.cover .band:after{content:"";position:absolute;top:0;bottom:0;right:0;width:2.2mm;background:var(--sand)}
+.cover .inner{position:absolute;top:34mm;right:20mm;left:76mm}
+.cover .tag{display:inline-block;border:1px solid rgba(255,255,255,.5);border-radius:20px;padding:1mm 4mm;font-size:10pt;letter-spacing:.2px}
+.cover h1{color:#fff;font-size:30pt;font-weight:800;margin:10mm 0 4mm;line-height:1.35}
+.cover .sub{font-size:14pt;opacity:.92;margin-bottom:22mm}
+.cover .to{border-right:3px solid var(--sand);padding-right:5mm;margin-bottom:9mm}
+.cover .to .k{font-size:10pt;opacity:.75}
+.cover .to .v{font-size:14pt;font-weight:700;line-height:1.55}
+.cover .foot{position:absolute;bottom:22mm;right:20mm;left:76mm;font-size:10pt;opacity:.85;border-top:1px solid rgba(255,255,255,.3);padding-top:4mm;display:flex;justify-content:space-between}
+.cover .mark{position:absolute;left:12mm;bottom:22mm;width:34mm;color:#fff;font-family:Kufi;font-size:11pt;line-height:1.6;text-align:center;opacity:.95}
+.cover .mark b{display:block;font-size:20pt;color:var(--sand)}
+/* letter */
+.letter p{font-size:11.5pt}
+.sign{margin-top:8mm}
+.sign .name{font-weight:700;color:var(--brand);font-size:12pt}
+/* boxes */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm}
+.card{border:1px solid var(--line);border-radius:3mm;padding:4mm 4.5mm;background:#fff;break-inside:avoid}
+.card h4{margin:0 0 1.5mm;font-family:Kufi;font-size:11pt;color:var(--brand)}
+.card p,.card li{font-size:10pt;margin-bottom:1mm;color:#2c3a3b}
+.card .ic{font-family:Kufi;font-weight:800;color:var(--sand);font-size:15pt;line-height:1;margin-bottom:2mm}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm;margin:4mm 0 5mm}
+.fact{background:var(--soft);border-radius:3mm;padding:3.5mm;text-align:center}
+.fact b{display:block;font-family:Kufi;color:var(--brand);font-size:13pt;line-height:1.4}
+.fact span{font-size:9pt;color:var(--muted)}
+.note{background:var(--sandbg);border-right:3px solid var(--sand);padding:3.5mm 5mm;border-radius:2mm;font-size:10.5pt;margin:4mm 0;break-inside:avoid}
+table{width:100%;border-collapse:collapse;font-size:10pt;margin:2mm 0 4mm;break-inside:auto}
+th{background:var(--brand);color:#fff;font-weight:700;text-align:right;padding:2.5mm 3mm}
+td{border-bottom:1px solid var(--line);padding:2.5mm 3mm;vertical-align:top}
+tr:nth-child(even) td{background:#f8faf9}
+tr{break-inside:avoid}
+.tier{border-radius:3mm;padding:4.5mm;break-inside:avoid;border:1px solid var(--line)}
+.tier .lvl{font-size:9pt;color:var(--sand);font-weight:700}
+.tier h4{font-family:Kufi;color:var(--brand);margin:1mm 0 2mm;font-size:12pt}
+.tier.hi{border:2px solid var(--brand);background:var(--soft)}
+/* ecosystem */
+.eco{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:3mm;align-items:center;margin:4mm 0}
+.eco .col{display:flex;flex-direction:column;gap:2.5mm}
+.eco .pill{border:1px solid var(--line);border-radius:2.5mm;padding:2mm 3mm;font-size:9.5pt;text-align:center;background:#fff}
+.eco .pill.law{border:2px solid var(--sand);background:var(--sandbg);font-weight:700;color:var(--brand)}
+.eco .core{background:var(--brand);color:#fff;border-radius:4mm;padding:6mm 4mm;text-align:center}
+.eco .core b{font-family:Kufi;font-size:13pt;display:block}
+.eco .core span{font-size:9.5pt;opacity:.9}
+.eco .lbl{font-size:9pt;color:var(--muted);text-align:center;font-weight:700}
+.flowsteps{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm;margin:3mm 0 4mm}
+.flowsteps div{background:var(--soft);border-radius:2.5mm;padding:3mm 2.5mm;font-size:9.5pt;text-align:center;position:relative}
+.flowsteps div b{display:block;font-family:Kufi;color:var(--sand);font-size:12pt}
+.contact{background:var(--brand);color:#fff;border-radius:4mm;padding:5mm 7mm;margin-top:4mm;break-inside:avoid}
+.contact h3{color:#fff;margin:0 0 3mm}
+.contact .row{display:grid;grid-template-columns:1fr 1fr;gap:2mm 8mm;font-size:10.5pt}
+.contact .row span{opacity:.75;margin-left:2mm}
+.ltr{direction:ltr;unicode-bidi:embed;display:inline-block}
+</style>
+</head>
+<body>
