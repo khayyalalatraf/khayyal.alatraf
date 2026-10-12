@@ -155,8 +155,9 @@
     {
       "slug": "expat-ejar-contract-english",
       "title": "Ejar contract registration in Saudi Arabia for expats (English page)",
-      "status": "pending",
-      "note": "صفحة/مقال بالإنجليزية: lang=en dir=ltr، 120 SAR، إيجار، نقل العداد، الضمان. مصادر رسمية فقط."
+      "status": "done",
+      "note": "صفحة/مقال بالإنجليزية: lang=en dir=ltr، 120 SAR، إيجار، نقل العداد، الضمان. مصادر رسمية فقط.",
+      "published": "2026-10-12"
     },
     {
       "slug": "owner-ad-license-whatsapp-groups",
