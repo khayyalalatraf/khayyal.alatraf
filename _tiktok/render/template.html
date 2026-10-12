@@ -34,6 +34,14 @@ html,body{width:1080px;height:1920px;overflow:hidden;font-family:C;background:va
 .wa{margin-top:44px;display:inline-flex;align-items:center;gap:22px;background:#1F8F57;color:#fff;font-size:58px;font-weight:900;padding:26px 56px;border-radius:80px}
 .wa svg{width:64px;height:64px}
 .cta .t2{margin-top:40px;font-size:40px;font-weight:700;color:var(--muted);line-height:1.6}
+.cta .lg.sm{width:380px;margin-bottom:30px}
+.qrbox{margin-top:36px;background:#fff;border:2px solid var(--line);border-radius:44px;padding:26px;box-shadow:0 30px 60px rgba(46,44,42,.10);position:relative}
+.qrbox img{display:block;width:430px;height:430px}
+.qrbox .badge{position:absolute;left:50%;top:50%;width:96px;height:96px;margin:-48px 0 0 -48px;border-radius:50%;background:#1F8F57;border:10px solid #fff;display:flex;align-items:center;justify-content:center}
+.qrbox .badge svg{width:52px;height:52px}
+.wa.s{margin-top:34px;font-size:48px;padding:18px 44px}
+.wa.s svg{width:52px;height:52px}
+.cta .num2{margin-top:22px;font-size:46px;font-weight:900;color:var(--deep);direction:ltr;letter-spacing:1px}
 .chip{display:inline-block;font-size:40px;font-weight:800;background:var(--brass-l);color:var(--deep);padding:10px 30px;border-radius:30px;margin:10px 0 0 14px}
 </style></head><body>
 <div id="bg"><div id="glow"></div><img id="wm" src="logo.png"></div>
@@ -57,7 +65,7 @@ function build(spec){SPEC=spec;document.getElementById('series').textContent=spe
   else if(sc.type==='point'){h=`<div class="card"><div class="num">${sc.n}</div><div class="ctitle">${rich(sc.title)}</div>${sc.body?`<div class="cbody">${rich(sc.body)}</div>`:''}</div>`}
   else if(sc.type==='big'){h=`<div class="big">${rich(sc.text)}</div>`+(sc.chips?`<div style="margin-top:36px">${sc.chips.map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>`:'')}
   else if(sc.type==='ref'){h=(sc.lead?`<div class="big" style="font-size:70px;margin-bottom:46px">${rich(sc.lead)}</div>`:'')+`<div class="ref">${rich(sc.text)}</div>`}
-  else if(sc.type==='cta'){h=`<img class="lg" src="logo.png"><div class="t1">${rich(sc.text||'عندك حالة مشابهة؟')}</div><div class="wa">${WA}<span>راسلنا واتساب</span></div><div class="t2">${rich(sc.sub||'الرابط في البايو · نخدمك في كل المملكة')}</div>`}
+  else if(sc.type==='cta'){h=`<div class="t1">${rich(sc.text||'عندك حالة مشابهة؟')}</div><div class="qrbox"><img src="wa-qr.svg"><div class="badge">${WA}</div></div><div class="wa s">${WA}<span>امسح الكود وراسلنا</span></div><div class="num2">wa.me/966530592272</div>`}
   d.innerHTML=h;st.appendChild(d);scenes.push({el:d,sc,t0,t1:t0+sc.dur});t0+=sc.dur});
  T=t0;return T}
 function render(t){
@@ -65,6 +73,7 @@ function render(t){
  document.querySelectorAll('.stripe').forEach(s=>{const i=+s.dataset.i;s.style.transform=`rotate(-24deg) translateX(${((t*40+i*180)%600)-300}px)`});
  const wm=document.getElementById('wm');wm.style.transform=`translateY(${Math.sin(t/3)*30}px) scale(${1.02+Math.sin(t/5)*.03})`;
  document.getElementById('glow').style.transform=`translate(${Math.sin(t/4)*80}px,${Math.cos(t/5)*60}px)`;
+ document.getElementById('foot').style.opacity=1;
  for(const s of scenes){const el=s.el,d=s.sc.dur,lt=t-s.t0;
   if(lt<0||lt>d){el.style.opacity=0;continue}
   const tin=cl(lt/.55),tout=cl((lt-(d-.4))/.4);
@@ -77,8 +86,8 @@ function render(t){
    const n=el.querySelector('.num');const q=E.back(cl((lt-.25)/.5));n.style.transform=`scale(${q}) rotate(${(1-q)*-90}deg)`}
   if(ty==='big'||ty==='ref'){const p=E.o(tin);el.style.transform+=` scale(${.94+.06*p})`;
    el.querySelectorAll('.chip').forEach((c,i)=>{const q=E.back(cl((lt-.5-.15*i)/.4));c.style.opacity=cl((lt-.5-.15*i)/.3);c.style.transform=`scale(${q})`})}
-  if(ty==='cta'){const w=el.querySelector('.wa');const q=1+Math.sin(lt*5)*.03*cl((lt-.8)/.3);w.style.transform=`scale(${E.back(cl((lt-.35)/.5))*q})`;
-   el.querySelector('.lg').style.transform=`scale(${.9+.1*E.o(tin)})`}
+  if(ty==='cta'){const qb=el.querySelector('.qrbox');qb.style.transform=`scale(${E.back(cl((lt-.2)/.55))})`;const w=el.querySelector('.wa');const q=1+Math.sin(lt*5)*.03*cl((lt-.8)/.3);w.style.transform=`scale(${E.back(cl((lt-.35)/.5))*q})`;
+   document.getElementById('foot').style.opacity=1-E.o(tin)*(1-tout)}
  }}
 window.build=build;window.render=render;
 </script></body></html>
