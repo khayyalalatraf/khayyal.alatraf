@@ -14,6 +14,7 @@
 - **ربط داخلي (من بند BACKLOG #2):** أدلة المدن الست صار لكل منها 5 روابط من أدلة المدن الأخرى (كانت صفر من المقالات)؛ المقال الإنجليزي من tenant-services وforeign-ownership وsecurity-deposit-refund وunregistered-rental-contract؛ مقال ترخيص الإعلان من ad-licensing وsale-vs-rental وfurnished-apartments؛ worker-housing-rental-contract من unregistered-old-leases-penalty والمقال الإنجليزي؛ tenant-wants-to-document من unilateral-contract-documentation؛ sale-vs-rental من sell-my-share. النتيجة: لا مقال تحت حد «مقالان + صفحة خدمة».
 - **تقني:** عنوان inherited-property-temporary-management كان 65 حرفاً ← 54؛ 4 أوصاف JSON-LD >160 وُحّدت مع meta description؛ dateModified وlastmod (21 رابطاً) حُدّثت.
 - **اختبار:** كل JSON-LD صالح (151 كتلة)، sitemap صالح (52 رابطاً)، لا روابط مكسورة/يتيمة/تطابق >70%، 420px بلا تمرير أفقي لـ23 صفحة معدلة؛ CSP وgtag وga-disable وcontact_click سليمة.
+- **IndexNow (بعد موافقة المالك على الاتصال):** أُرسلت 5 روابط (مقال ترخيص الإعلان، المقال الإنجليزي، ad-licensing، tenant-services، foreign-ownership)؛ الطلبات مرّت دون رسالة خطأ لكن الأداة لم تُظهر رمز الحالة (200/202 غير مؤكد). Search Console يبقى بيد المالك: لا متصفح متاح للوكيل في الجلسات السحابية.
 - **المخاطر/التراجع:** نصوص وروابط فقط، لا تغيير URL؛ `git revert` يكفي.
 - **القياس:** فهرسة أدلة المدن والمقالين في Search Console خلال أسبوعين.
 
