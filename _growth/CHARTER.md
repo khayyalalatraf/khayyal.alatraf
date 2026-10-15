@@ -10,7 +10,7 @@
 - يخدم جميع مناطق المملكة، دون مكتب يستقبل العملاء (نشاط يخدم منطقة).
 - الجوال 0530592272 · واتساب موثّق https://wa.me/966530592272 · البريد khayyal.alatraf.realestate@outlook.sa
 - رابط تقييم Google: https://g.page/r/CdXwqfepqlPsEAE/review (يُضاف لقوائم التواصل ويُشجَّع العملاء عليه — لا تقييمات مختلقة أبداً)
-- إكس https://x.com/khayyalalatraf · تيك توك https://www.tiktok.com/@khayyal_alatraf · فيسبوك https://www.facebook.com/profile.php?id=61595025671954 (كل صفحات الموقع تحمل سطر التواصل الموحّد في التذييل، أُضيف 2026-10-15)
+- إكس https://x.com/khayyalalatraf · تيك توك https://www.tiktok.com/@khayyal_alatraf · فيسبوك https://www.facebook.com/profile.php?id=61595025671954 · يوتيوب https://www.youtube.com/@khayyalalatraf (كل صفحات الموقع تحمل سطر التواصل الموحّد في التذييل، أُضيف 2026-10-15)
 - خبرة +5 سنوات، +1,870 عقد إيجار موثّق عبر إيجار.
 - رسوم خدمتنا: 120 ريال للعقد السكني و150 ريال للتجاري، لا تشمل رسوم منصة إيجار (لا تُذكر أرقامها). إدارة الأملاك خدمة معروضة (قرار المالك 2026-10-08).
 - الموقع: GitHub Pages، المستودع khayyalalatraf/khayyal.alatraf فرع main، الدومين khayyal-alatraf.sa، Google Analytics G-2ENB3E9DVF.
