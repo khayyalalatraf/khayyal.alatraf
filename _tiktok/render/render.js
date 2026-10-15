@@ -10,11 +10,13 @@ const {chromium}=require('playwright');const {spawn}=require('child_process');co
  await p.goto('file://'+path.join(__dirname,'template.html'));await p.evaluate(()=>document.fonts.ready);
  const T=await p.evaluate(s=>build(s),spec);await p.waitForTimeout(400);
  const n=Math.round(T*fps);
+ // الغلاف: تيك توك يأخذ أول لقطة غلافاً، فنثبت الخطاف مكتملاً من أول لقطة حتى لحظة اكتماله (لا شاشة فارغة)
+ const cover=spec.cover_at??Math.min(2.4,spec.scenes[0].dur-.5);const hold=spec.hold_cover!==false;
  const ff=spawn('ffmpeg',['-y','-loglevel','error','-f','image2pipe','-framerate',String(fps),'-i','-',...(spec.audio?['-i',path.resolve(path.dirname(specPath),spec.audio),'-af','apad']:['-f','lavfi','-i','anullsrc=r=44100:cl=stereo']),'-shortest','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','96k','-movflags','+faststart',out],{stdio:['pipe','inherit','inherit']});
- for(let i=0;i<n;i++){await p.evaluate(t=>render(t),i/fps);const buf=await p.screenshot({type:'jpeg',quality:92});
+ for(let i=0;i<n;i++){const ts=i/fps;await p.evaluate(t=>render(t),hold&&ts<cover?cover:ts);const buf=await p.screenshot({type:'jpeg',quality:92});
   if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r));}
  // غلاف: لحظة اكتمال الخطاف
- const cover=spec.cover_at??Math.min(2.4,spec.scenes[0].dur-.5);await p.evaluate(t=>render(t),cover);
+ await p.evaluate(t=>render(t),cover);
  await p.screenshot({path:out.replace(/\.mp4$/,'-cover.jpg'),type:'jpeg',quality:92});
  ff.stdin.end();await new Promise(r=>ff.on('close',r));await b.close();
  console.log(`done ${out} ${T.toFixed(1)}s ${n} frames`);
