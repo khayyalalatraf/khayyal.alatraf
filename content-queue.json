@@ -176,8 +176,9 @@
     {
       "slug": "white-land-fees-sell-or-develop",
       "title": "عندي أرض بيضاء والرسوم زادت: أبيع ولا أطوّر؟",
-      "status": "pending",
-      "note": "بيع: الرسوم حتى 10% والحد 5,000 م² (العين يوليو 2025)؛ تحقق من اللائحة التنفيذية الرسمية؛ اربط sale-contract-documentation.html."
+      "status": "done",
+      "note": "بيع: الرسوم حتى 10% والحد 5,000 م² (العين يوليو 2025)؛ تحقق من اللائحة التنفيذية الرسمية؛ اربط sale-contract-documentation.html.",
+      "published": "2026-10-15"
     },
     {
       "slug": "rent-renewal-reminder-landlords",
