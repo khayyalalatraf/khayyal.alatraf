@@ -32,3 +32,4 @@ expat-ejar-contract-english
 owner-ad-license-whatsapp-groups
 foreign-ownership-residents-guide
 white-land-fees-sell-or-develop
+rent-renewal-reminder-landlords
