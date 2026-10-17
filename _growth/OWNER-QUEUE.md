@@ -27,6 +27,7 @@
 ## يوتيوب شورتس (الوكيل: يوتيوب)
 - [ ] 01-intro · أُرسل: 2026-10-15 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/01-intro.mp4
 - [ ] 02-heirs-refuse · أُرسل: 2026-10-16 · المطلوب منك: ارفعه في يوتيوب ستوديو · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/02-heirs-refuse.mp4
+- [ ] 03-commission · أُرسل: 2026-10-17 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/03-commission.mp4
 
 ## إكس (الوكيلان: التغريدة كل 4 ساعات والسؤال التفاعلي)
 - ملاحظة البداية: التغريدات المرسلة قبل 2026-10-17 مسجّلة في _x/LOG.md ولا يُذكّر بها (منتهية). البنود تبدأ من أول دورة بعد هذا القرار.
