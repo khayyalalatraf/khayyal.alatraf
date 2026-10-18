@@ -27,7 +27,7 @@
 - [ ] elevenlabs-credit · أُرسل: 2026-10-18 · المطلوب منك: اشحن رصيد ElevenLabs أو قرّر البديل ثم اضغط تم (المتبقي 248 والمطلوب 358 لمقطع 10؛ كل التوليد موقوف حتى الإغلاق) · الرابط: https://elevenlabs.io/app/flows/kczNqkQK8COAxuJprMvN
 
 ## يوتيوب شورتس (الوكيل: يوتيوب)
-- [ ] 01-intro · أُرسل: 2026-10-15 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/01-intro.mp4
+- [x] 01-intro · (نُشر على يوتيوب عبر Buffer 2026-10-18 7 م — مدقق النشر) · أُرسل: 2026-10-15 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/01-intro.mp4
 - [ ] 02-heirs-refuse · أُرسل: 2026-10-16 · المطلوب منك: ارفعه في يوتيوب ستوديو · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/02-heirs-refuse.mp4
 - [ ] 03-commission · أُرسل: 2026-10-17 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/03-commission.mp4
 
