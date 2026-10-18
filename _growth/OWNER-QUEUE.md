@@ -24,6 +24,7 @@
 - [ ] 12-heirs-agreed-split · أُرسل: 2026-10-15 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/12-heirs-agreed-split.txt
 - [ ] 13-property-mgmt-license · أُرسل: 2026-10-16 · (رُفع الإيقاف بقرار الرئيس D-032) · المطلوب منك: توليد الصوت ضمن دفعة الصوت (بند voice-10-11-12-14 في «مطلوب منك») ثم النشر · الرابط: _tiktok/voice/13-property-mgmt-license.txt
 - [ ] 14-ad-license-check · أُرسل: 2026-10-17 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/14-ad-license-check.txt
+- [ ] elevenlabs-credit · أُرسل: 2026-10-18 · المطلوب منك: اشحن رصيد ElevenLabs أو قرّر البديل ثم اضغط تم (المتبقي 248 والمطلوب 358 لمقطع 10؛ كل التوليد موقوف حتى الإغلاق) · الرابط: https://elevenlabs.io/app/flows/kczNqkQK8COAxuJprMvN
 
 ## يوتيوب شورتس (الوكيل: يوتيوب)
 - [ ] 01-intro · أُرسل: 2026-10-15 · المطلوب منك: ارفعه في يوتيوب ستوديو بالعنوان والوصف من _tiktok/YOUTUBE.md · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/01-intro.mp4
