@@ -35,3 +35,4 @@ white-land-fees-sell-or-develop
 rent-renewal-reminder-landlords
 brokerage-commission-who-pays
 heir-living-in-inherited-house
+selling-rented-building-to-investor
