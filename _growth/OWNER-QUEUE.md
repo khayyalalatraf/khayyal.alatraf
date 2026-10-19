@@ -16,7 +16,7 @@
 
 ## تيك توك (الوكيل: تيك توك)
 - [x] 01–07 · نُشرت · تم: 2026-10-16 (المالك أكّد)
-- [-] 07b-paper-lease · أُرسل: 2026-10-15 · موقوف بقرار المدير التنفيذي 2026-10-18: الصوت يحتاج إعادة تسجيل لدقة الصياغة النظامية (لا يُنشر الآن) · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/07b-paper-lease.mp4
+- [ ] 07b-paper-lease · أُرسل: 2026-10-15 · (أُعيدت الصياغة النظامية 2026-10-19 من صفحة خدمة واقعة إيجارية في منصة إيجار؛ الصوت القديم ملغى) · المطلوب: توليد الصوت ثم النشر (ضمن بند elevenlabs-credit) · الرابط: _tiktok/voice/07b-paper-lease.txt
 - [x] 08-nonresident-own · أُرسل: 2026-10-12 · المطلوب منك: انشره (جاهز بالصوت) · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/08-nonresident-own.mp4 · تم: 2026-10-18 (المالك أكّد)
 - [x] 09-sell-property · أُرسل: 2026-10-12 · المطلوب منك: انشره (جاهز بالصوت) · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/09-sell-property.mp4 · تم: 2026-10-18 (المالك أكّد)
 - [ ] 10-makkah-register · أُرسل: 2026-10-13 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/10-makkah-register.txt
