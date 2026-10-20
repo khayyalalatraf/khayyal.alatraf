@@ -20,7 +20,7 @@
 - [x] 08-nonresident-own · أُرسل: 2026-10-12 · المطلوب منك: انشره (جاهز بالصوت) · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/08-nonresident-own.mp4 · تم: 2026-10-18 (المالك أكّد)
 - [x] 09-sell-property · أُرسل: 2026-10-12 · المطلوب منك: انشره (جاهز بالصوت) · الرابط: https://raw.githubusercontent.com/khayyalalatraf/khayyal.alatraf/main/_tiktok/videos/09-sell-property.mp4 · تم: 2026-10-18 (المالك أكّد)
 - [ ] 10-makkah-register · أُرسل: 2026-10-13 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/10-makkah-register.txt
-- [ ] 11-register-4regions · أُرسل: 2026-10-14 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/11-register-4regions.txt
+- [ ] 11-register-4regions · أُرسل: 2026-10-14 · (2026-10-20: نصه رُوجع على VOICE-GUIDE واختُصر، جاهز للتوليد) · المطلوب: توليد الصوت ثم النشر (ضمن بند elevenlabs-credit) · الرابط: _tiktok/voice/11-register-4regions.txt
 - [ ] 12-heirs-agreed-split · أُرسل: 2026-10-15 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/12-heirs-agreed-split.txt
 - [ ] 13-property-mgmt-license · أُرسل: 2026-10-16 · (رُفع الإيقاف بقرار الرئيس D-032) · المطلوب منك: توليد الصوت ضمن دفعة الصوت (بند voice-10-11-12-14 في «مطلوب منك») ثم النشر · الرابط: _tiktok/voice/13-property-mgmt-license.txt
 - [ ] 14-ad-license-check · أُرسل: 2026-10-17 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/14-ad-license-check.txt
