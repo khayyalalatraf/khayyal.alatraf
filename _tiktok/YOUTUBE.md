@@ -15,7 +15,7 @@
 🌐 الموقع: https://khayyal-alatraf.sa
 🎵 تيك توك: https://www.tiktok.com/@khayyal_alatraf
 𝕏 إكس: https://x.com/khayyalalatraf
-📍 الرياض – حي العليا · نخدمك في جميع مناطق المملكة
+📍 نخدمك في جميع مناطق المملكة
 ```
 
 ## المقاطع الجاهزة
