@@ -37,3 +37,4 @@ brokerage-commission-who-pays
 heir-living-in-inherited-house
 selling-rented-building-to-investor
 rett-real-estate-tax-who-pays
+find-tenant-commercial-shop

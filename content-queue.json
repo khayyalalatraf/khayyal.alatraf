@@ -224,8 +224,9 @@
     {
       "slug": "find-tenant-commercial-shop",
       "title": "محلي فاضي: كيف ألقى مستأجر تجاري بسرعة؟",
-      "status": "pending",
-      "note": "تأجير تجاري ووساطة 2.5% أول سنة؛ اربط commercial-rental-contract.html."
+      "status": "done",
+      "note": "تأجير تجاري ووساطة 2.5% أول سنة؛ اربط commercial-rental-contract.html.",
+      "published": "2026-10-21"
     },
     {
       "slug": "ejar-lease-inherited-property",
