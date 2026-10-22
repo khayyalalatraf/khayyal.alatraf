@@ -23,7 +23,7 @@
 - [ ] 11-register-4regions · أُرسل: 2026-10-14 · (2026-10-20: نصه رُوجع على VOICE-GUIDE واختُصر، جاهز للتوليد) · المطلوب: توليد الصوت ثم النشر (ضمن بند elevenlabs-credit) · الرابط: _tiktok/voice/11-register-4regions.txt
 - [ ] 12-heirs-agreed-split · أُرسل: 2026-10-15 · (2026-10-21: نصه رُوجع على VOICE-GUIDE ومصدر وزارة العدل، جاهز للتوليد) · المطلوب: توليد الصوت ثم النشر (ضمن بند elevenlabs-credit) · الرابط: _tiktok/voice/12-heirs-agreed-split.txt
 - [ ] 13-property-mgmt-license · أُرسل: 2026-10-16 · (رُفع الإيقاف بقرار الرئيس D-032) · المطلوب منك: توليد الصوت ضمن دفعة الصوت (بند voice-10-11-12-14 في «مطلوب منك») ثم النشر · الرابط: _tiktok/voice/13-property-mgmt-license.txt
-- [ ] 14-ad-license-check · أُرسل: 2026-10-17 · المطلوب منك: توليد الصوت (صامت حالياً — افتح كروم مع تبويب ElevenLabs وقل «ولّد الصوت») ثم النشر · الرابط: _tiktok/voice/14-ad-license-check.txt
+- [ ] 14-ad-license-check · أُرسل: 2026-10-17 · (2026-10-22: نصه رُوجع على VOICE-GUIDE ومصدر الهيئة العامة للعقار واختُصر، جاهز للتوليد) · المطلوب: توليد الصوت ثم النشر (ضمن بند elevenlabs-credit) · الرابط: _tiktok/voice/14-ad-license-check.txt
 - [ ] elevenlabs-credit · أُرسل: 2026-10-18 · المطلوب منك: اشحن رصيد ElevenLabs أو قرّر البديل ثم اضغط تم (المتبقي 248 والمطلوب 358 لمقطع 10؛ كل التوليد موقوف حتى الإغلاق) · الرابط: https://elevenlabs.io/app/flows/kczNqkQK8COAxuJprMvN
 
 ## يوتيوب شورتس (الوكيل: يوتيوب)
