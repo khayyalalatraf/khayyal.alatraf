@@ -250,8 +250,9 @@
     {
       "slug": "inherited-property-valuation",
       "title": "تقييم عقار الورثة: ليش مقيّم معتمد يحسم الخلاف؟",
-      "status": "done",
-      "published": "2026-10-23",
+      "status": "draft_review",
+      "draft_branch": "draft/ceo-valuation-article",
+      "review_note": "مكتوب ومسحوب من main بانتظار تدقيق مدقق النشر (q20261023 بند 6) — لا يُعاد توليده ولا يُنشر قبل قيد في publish_audit",
       "note": "فجوة: تحقق من الهيئة السعودية للمقيمين المعتمدين (تقييم)"
     },
     {
