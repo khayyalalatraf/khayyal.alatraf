@@ -272,7 +272,7 @@
     {
       "slug": "rent-price-rental-index",
       "title": "بكم أأجر شقتي؟ كيف تعرف سعر الإيجار المناسب لحيّك",
-      "status": "draft_review",
+      "status": "done",
       "audience": "ملاك",
       "keywords": [
         "بكم اأجر شقتي",
@@ -281,7 +281,8 @@
       ],
       "note": "للملاك. المصدر: المؤشر الإيجاري للهيئة العامة للعقار (rega.gov.sa أخبار المؤشر الإيجاري). نبّه أن الرياض فيها تجميد زيادة 5 سنوات فأول أجرة مهمة (أم القرى). خدمتنا: دراسة سعر + تأجير.",
       "draft_branch": "draft/article-rent-price-rental-index",
-      "review_note": "مكتوب ومدفوع إلى فرع draft/article-rent-price-rental-index بانتظار تدقيق مدقق النشر (2026-10-25). المصادر: ejar.sa/en/node/428239، rega.gov.sa (المؤشر الإيجاري)، uqn.gov.sa/details?p=28602 و27494 (تجميد إيجارات الرياض). لم يُدفع إلى main."
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-rent-price-rental-index بانتظار تدقيق مدقق النشر (2026-10-25). المصادر: ejar.sa/en/node/428239، rega.gov.sa (المؤشر الإيجاري)، uqn.gov.sa/details?p=28602 و27494 (تجميد إيجارات الرياض). لم يُدفع إلى main.",
+      "published": "2026-10-26"
     },
     {
       "slug": "heirs-one-refuses-sale",
