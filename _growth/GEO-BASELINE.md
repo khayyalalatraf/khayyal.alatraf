@@ -118,3 +118,43 @@
 1. التأكد من فهرسة الموقع: Google Search Console وBing Webmaster Tools (يغذي Copilot وجزءاً من ChatGPT)، وإرسال خريطة الموقع.
 2. صفحة لكل خدمة، وصفحات مدن للأسئلة المتكررة (بيع، تأجير، إدارة أملاك، عقد إيجار إلكتروني عن بُعد) بصياغة تجيب عن السؤال مباشرة.
 3. توحيد الاسم والعنوان ورقم الرخصة في كل الأدلة والمنصات أعلاه حتى تربطها المساعدات بالموقع.
+
+
+## القياس الثاني — أسبوع 2026-10-25 (قيس 2026-10-26)
+
+الأداة نفسها (WebSearch standard).
+
+| الرقم | ظهر الموقع؟ | الترتيب | المواقع التي ظهرت بدلاً منه |
+|---|---|---|---|
+| Q01 | لا | — | bayut.sa، sa.aqar.fm، raghdan.sa، sabq.org |
+| Q02 | لا | — | raghdan.sa، sabbar.com، ejar.sa، propertyfinder.sa |
+| Q03 | لا | — | sabq.org، sabbar.com، ar.airbnb.com، raghdan.sa |
+| Q04 | لا | — | ajel.sa، aleqtsad.org، raghdan.sa، rega.gov.sa |
+| Q05 | لا | — | sabbar.com، odoo.com، sa.aqar.fm، raghdan.sa |
+| Q06 | لا | — | amlak.net.sa، tumblr.com، raghdan.sa، okaz.com.sa |
+| Q07 | لا | — | okaz.com.sa، raghdan.sa، rega.gov.sa، wdeftksa.com |
+| Q08 | لا | — | slaati.com، mawdoo3.com، raghdan.sa، sabbar.com |
+| Q09 | لا | — | sabbar.com، raghdan.sa |
+| Q10 | لا | — | sabbar.com، mawdoo3.com، bayut.sa |
+| Q11 | لا | — | raghdan.sa، sa.aqar.fm، business.google.com، sabbar.com |
+| Q12 | لا | — | bayut.sa، linkedin.com |
+| Q13 | لا | — | sa.aqar.fm، snapchat.com، bayut.sa |
+| Q14 | لا | — | sa.aqar.fm، sabbar.com، calameo.com، sa.opensooq.com |
+| Q15 | لا | — | raghdan.sa (كل النتائج) |
+| Q16 | لا | — | raghdan.sa، bayut.sa، eyeofriyadh.com، sabbar.com |
+| Q17 | لا | — | sabbar.com، raghdan.sa |
+| Q18 | لا | — | sabq.org، ajel.sa، okaz.com.sa، etqanlawfirm-sa.com |
+| Q19 | لا | — | raghdan.sa، sabbar.com، mawdoo3.com |
+| Q20 | لا | — | bayut.sa، sa.aqar.fm، sabbar.com، dubailand.gov.ae |
+| Q21 | لا | — | bayut.sa، furas.momah.gov.sa، amlak.net.sa |
+| Q22 | لا | — | bayut.sa، raghdan.sa |
+| Q23 | لا | — | raghdan.sa، aleqtsad.org، okaz.com.sa، rega.gov.sa |
+| Q24 | لا | — | calameo.com، sabbar.com، bayut.sa، sa.aqar.fm |
+| Q25 | لا | — | sa.aqar.fm، dubailand.gov.ae، amtaar.substack.com، amlak.net.sa |
+| Q26 | لا | — | ajel.sa، aleqtsad.org، sa.opensooq.com، ejar.sa |
+| Q27 | لا | — | sabbar.com، okaz.com.sa، raghdan.sa، amlak.net.sa |
+| Q28 | لا | — | bayut.sa، sa.aqar.fm، sabbar.com |
+| Q29 | لا | — | al3omk.com، furas.momah.gov.sa، ar.airbnb.com، snapchat.com |
+| Q30 | لا | — | raghdan.sa (كل النتائج) |
+
+**النتيجة:** 0 من 30 = **0%** (بلا تغيير). فحص الاسم «خيّال الأطراف العقارية» والنطاق: لا ظهور، فالأداة لم تفهرس الموقع بعد. raghdan.sa صار يحتل كل نتائج Q15 وQ30 وأغلب Q09 وQ17.
