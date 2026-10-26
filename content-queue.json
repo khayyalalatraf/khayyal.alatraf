@@ -250,15 +250,16 @@
     {
       "slug": "inherited-property-valuation",
       "title": "تقييم عقار الورثة: ليش مقيّم معتمد يحسم الخلاف؟",
-      "status": "draft_review",
+      "status": "done",
       "draft_branch": "draft/ceo-valuation-article-v2",
       "review_note": "مكتوب ومسحوب من main بانتظار تدقيق مدقق النشر (q20261023 بند 6) — لا يُعاد توليده ولا يُنشر قبل قيد في publish_audit",
-      "note": "فجوة: تحقق من الهيئة السعودية للمقيمين المعتمدين (تقييم)"
+      "note": "فجوة: تحقق من الهيئة السعودية للمقيمين المعتمدين (تقييم)",
+      "published": "2026-10-26"
     },
     {
       "slug": "rental-contract-jubail",
       "title": "عقد ايجار الكتروني في الجبيل",
-      "status": "draft_review",
+      "status": "done",
       "audience": "مدينة",
       "keywords": [
         "عقد ايجار الجبيل",
@@ -267,12 +268,13 @@
       ],
       "note": "مقال مدينة (GEO) بنفس مواصفات مقالات المدن المنشورة 2026-10-11 (مثل blog/rental-contract-jazan.html): قسم محلي فريد مبني على مصادر تفتحها (جامعات، مدن صناعية، موانئ، مشاريع، بيانات المؤشر الإيجاري/الإحصاء بتاريخها)، لا أرقام مختلقة، لا تنسب تجميد الرياض لها، عنوان بصيغة بحث محلية مختلفة عن عناوين المدن الأخرى، ربط بصفحة التوثيق والتجاري ومقالين.",
       "draft_branch": "draft/ceo-jubail-article-v2",
-      "review_note": "مسحوب بانتظار التدقيق، لا يُعاد توليده"
+      "review_note": "مسحوب بانتظار التدقيق، لا يُعاد توليده",
+      "published": "2026-10-26"
     },
     {
       "slug": "rent-price-rental-index",
       "title": "بكم أأجر شقتي؟ كيف تعرف سعر الإيجار المناسب لحيّك",
-      "status": "draft_review",
+      "status": "done",
       "audience": "ملاك",
       "keywords": [
         "بكم اأجر شقتي",
@@ -281,7 +283,8 @@
       ],
       "note": "للملاك. المصدر: المؤشر الإيجاري للهيئة العامة للعقار (rega.gov.sa أخبار المؤشر الإيجاري). نبّه أن الرياض فيها تجميد زيادة 5 سنوات فأول أجرة مهمة (أم القرى). خدمتنا: دراسة سعر + تأجير.",
       "draft_branch": "draft/article-rent-price-rental-index",
-      "review_note": "مكتوب ومدفوع إلى فرع draft/article-rent-price-rental-index بانتظار تدقيق مدقق النشر (2026-10-25). المصادر: ejar.sa/en/node/428239، rega.gov.sa (المؤشر الإيجاري)، uqn.gov.sa/details?p=28602 و27494 (تجميد إيجارات الرياض). لم يُدفع إلى main."
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-rent-price-rental-index بانتظار تدقيق مدقق النشر (2026-10-25). المصادر: ejar.sa/en/node/428239، rega.gov.sa (المؤشر الإيجاري)، uqn.gov.sa/details?p=28602 و27494 (تجميد إيجارات الرياض). لم يُدفع إلى main.",
+      "published": "2026-10-26"
     },
     {
       "slug": "heirs-one-refuses-sale",
@@ -299,12 +302,14 @@
     {
       "slug": "owner-real-estate-ad-license",
       "title": "ترخيص اعلان عقاري للمالك: كيف تطلعه قبل ما تنزّل اعلانك؟",
-      "status": "pending",
+      "status": "draft_review",
       "keywords": [
         "ترخيص اعلان عقاري مالك",
         "ترخيص إعلان عقاري للمالك"
       ],
-      "note": "المصدر: rega.gov.sa فقط"
+      "note": "المصدر: rega.gov.sa فقط",
+      "draft_branch": "draft/article-owner-real-estate-ad-license",
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-owner-real-estate-ad-license بانتظار تدقيق مدقق النشر (2026-10-26)، حسب سياسة content-queue.json (q20261024 #1/#7). زاوية مختلفة عن owner-ad-license-whatsapp-groups المنشور (تجهيز الطلب والبيانات الإلزامية في نص الإعلان والاستعلام عن حالة الترخيص، لا مجرد الحاجة للترخيص). المصادر: صفحتا أخبار rega.gov.sa (لائحة التسويق والإعلانات العقارية، خدمة الاستعلام عن ترخيص الإعلان) واللائحة التنفيذية لنظام الوساطة العقارية. لم يُدفع إلى main."
     },
     {
       "slug": "rental-contract-yanbu",
