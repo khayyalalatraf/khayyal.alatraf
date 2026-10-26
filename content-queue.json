@@ -299,12 +299,14 @@
     {
       "slug": "owner-real-estate-ad-license",
       "title": "ترخيص اعلان عقاري للمالك: كيف تطلعه قبل ما تنزّل اعلانك؟",
-      "status": "pending",
+      "status": "draft_review",
       "keywords": [
         "ترخيص اعلان عقاري مالك",
         "ترخيص إعلان عقاري للمالك"
       ],
-      "note": "المصدر: rega.gov.sa فقط"
+      "note": "المصدر: rega.gov.sa فقط",
+      "draft_branch": "draft/article-owner-real-estate-ad-license",
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-owner-real-estate-ad-license بانتظار تدقيق مدقق النشر (2026-10-26)، حسب سياسة content-queue.json (q20261024 #1/#7). زاوية مختلفة عن owner-ad-license-whatsapp-groups المنشور (تجهيز الطلب والبيانات الإلزامية في نص الإعلان والاستعلام عن حالة الترخيص، لا مجرد الحاجة للترخيص). المصادر: صفحتا أخبار rega.gov.sa (لائحة التسويق والإعلانات العقارية، خدمة الاستعلام عن ترخيص الإعلان) واللائحة التنفيذية لنظام الوساطة العقارية. لم يُدفع إلى main."
     },
     {
       "slug": "rental-contract-yanbu",
