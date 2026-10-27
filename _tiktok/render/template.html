@@ -65,7 +65,7 @@ function build(spec){SPEC=spec;document.getElementById('series').textContent=spe
   else if(sc.type==='point'){h=`<div class="card"><div class="num">${sc.n}</div><div class="ctitle">${rich(sc.title)}</div>${sc.body?`<div class="cbody">${rich(sc.body)}</div>`:''}</div>`}
   else if(sc.type==='big'){h=`<div class="big">${rich(sc.text)}</div>`+(sc.chips?`<div style="margin-top:36px">${sc.chips.map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>`:'')}
   else if(sc.type==='ref'){h=(sc.lead?`<div class="big" style="font-size:70px;margin-bottom:46px">${rich(sc.lead)}</div>`:'')+`<div class="ref">${rich(sc.text)}</div>`}
-  else if(sc.type==='cta'){h=`<div class="t1">${rich(sc.text||'عندك حالة مشابهة؟')}</div><div class="qrbox"><img src="wa-qr.svg"><div class="badge">${WA}</div></div><div class="wa s">${WA}<span>امسح الكود وراسلنا</span></div><div class="num2">wa.me/966530592272</div>`}
+  else if(sc.type==='cta'){h=`<div class="t1">${rich(sc.text||'عندك حالة مشابهة؟')}</div><div class="qrbox"><img src="wa-qr.svg"><div class="badge">${WA}</div></div><div class="wa s">${WA}<span>${esc(sc.sub||'امسح الكود وراسلنا')}</span></div><div class="num2">wa.me/966530592272</div>`}
   d.innerHTML=h;st.appendChild(d);scenes.push({el:d,sc,t0,t1:t0+sc.dur});t0+=sc.dur});
  T=t0;return T}
 function render(t){
