@@ -7,10 +7,46 @@ dates. Run from the repo root before every push that touches public pages:
     python3 _growth/tools/sync-lastmod.py          # report only
     python3 _growth/tools/sync-lastmod.py --write  # apply
 
-Date source: `git log -1 --format=%cs -- <file>` (last commit date). A page
-with uncommitted changes gets today's date. lastmod never moves backwards.
+Date source: the last commit that changed the page's *content*. Commits whose
+changed lines differ only in hrefs, dates (lastmod/dateModified) or the footer
+copyright line / og:site_name meta are ignored (quality report 2026-10-26 #16). A page with
+uncommitted content changes gets today's date. The date is set exactly, so it
+can move backwards when an earlier bump was not a real content change.
+Refuses to run on a shallow clone (dates would be wrong).
 """
 import datetime, re, subprocess, sys
+
+if subprocess.run(["git", "rev-parse", "--is-shallow-repository"],
+                  capture_output=True, text=True).stdout.strip() == "true":
+    sys.exit("shallow clone: run git fetch --unshallow")
+
+TRIVIAL = [
+    re.compile(r'href="[^"]*"'),
+    re.compile(r'"date(Modified|Published)"\s*:\s*"[^"]*"'),
+    re.compile(r"<lastmod>[^<]*</lastmod>"),
+    re.compile(r'content="\d{4}-\d{2}-\d{2}[^"]*"'),
+]
+FOOTER = re.compile(r"(©|جميع الحقوق|الحقوق محفوظة|og:site_name)")
+
+
+def norm(line):
+    for r in TRIVIAL:
+        line = r.sub("", line)
+    return re.sub(r"\s+", " ", line).strip()
+
+
+def is_trivial(diff_lines):
+    minus = sorted(norm(l[1:]) for l in diff_lines if l.startswith("-") and not FOOTER.search(l))
+    plus = sorted(norm(l[1:]) for l in diff_lines if l.startswith("+") and not FOOTER.search(l))
+    minus = [l for l in minus if l]
+    plus = [l for l in plus if l]
+    return minus == plus
+
+
+def changed_lines(args):
+    out = subprocess.run(["git"] + args, capture_output=True, text=True).stdout
+    return [l for l in out.splitlines()
+            if l[:1] in "+-" and not l.startswith(("+++", "---"))]
 
 SITE = "https://khayyal-alatraf.sa/"
 write = "--write" in sys.argv
@@ -20,11 +56,19 @@ today = datetime.date.today().isoformat()
 def page_date(path):
     dirty = subprocess.run(["git", "status", "--porcelain", "--", path],
                            capture_output=True, text=True).stdout.strip()
-    if dirty:
+    if dirty and not is_trivial(changed_lines(["diff", "-U0", "HEAD", "--", path])):
         return today
-    out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path],
-                         capture_output=True, text=True).stdout.strip()
-    return out or None
+    log = subprocess.run(["git", "log", "--format=%H %cs", "--", path],
+                         capture_output=True, text=True).stdout.split("\n")
+    last = None
+    for row in log:
+        if not row.strip():
+            continue
+        h, d = row.split()
+        last = d
+        if not is_trivial(changed_lines(["show", "--format=", "-U0", h, "--", path])):
+            return d
+    return last  # only trivial commits: fall back to the oldest (creation)
 
 
 def loc_to_path(loc):
@@ -46,7 +90,7 @@ def fix_url(m):
     cur = re.search(r"<lastmod>(.*?)</lastmod>", block)
     if not new:
         return block
-    if cur and cur.group(1) >= new:
+    if cur and cur.group(1) == new:
         return block
     changes.append(f"sitemap {path}: {cur.group(1) if cur else '-'} -> {new}")
     if cur:
@@ -64,7 +108,7 @@ for path in blog:
     html = open(path, encoding="utf-8").read()
     m = re.search(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})', html)
     new = page_date(path)
-    if m and new and m.group(1) < new:
+    if m and new and m.group(1) != new:
         changes.append(f"dateModified {path}: {m.group(1)} -> {new}")
         edits[path] = html.replace(m.group(0), m.group(0)[:-10] + new, 1)
 
