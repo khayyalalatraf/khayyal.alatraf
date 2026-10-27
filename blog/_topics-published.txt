@@ -43,3 +43,4 @@ rent-price-rental-index
 rental-contract-jubail
 inherited-property-valuation
 owner-real-estate-ad-license
+rental-contract-yanbu
