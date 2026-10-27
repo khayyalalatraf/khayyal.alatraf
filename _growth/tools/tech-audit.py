@@ -32,8 +32,14 @@ for p in pages:
     for im in imgs:
         if 'alt=' not in im: add('img_no_alt',p)
     for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>',h,re.S):
-        try: json.loads(m)
-        except Exception as e: add('jsonld_invalid',f'{p}: {str(e)[:50]}')
+        try: j=json.loads(m)
+        except Exception as e: add('jsonld_invalid',f'{p}: {str(e)[:50]}'); continue
+        if isinstance(j,dict) and j.get('@type')=='BlogPosting':
+            if 'image' not in j: add('blogposting_no_image',p)
+            pub=j.get('publisher') or {}
+            if not (pub.get('name') and pub.get('logo')): add('blogposting_publisher_incomplete',p)
+        if 'RealEstateAgent' in m and '/#org' not in m: add('realestateagent_outside_org',p)
+    if 'og:site_name' not in h: add('no_og_site_name',p)
     if not noindex:
         u=base+('' if p=='index.html' else p)
         if u not in smurls: add('not_in_sitemap',p)
