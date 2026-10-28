@@ -330,14 +330,17 @@
     {
       "slug": "landlord-deposit-dont-hold-cash",
       "title": "يا مالك: ليه ما تستلم مبلغ الضمان بيدك؟",
-      "status": "pending",
+      "status": "done",
       "audience": "ملاك",
       "keywords": [
         "مبلغ الضمان المالك",
         "تأمين الشقة للمالك",
         "خدمة حفظ مبلغ الضمان"
       ],
-      "note": "للملاك. المصدر: ejar.sa/ar/page/181067 + سبق LwjsCK5. الزاوية: حماية المالك بنموذج التسليم والاقتطاع باتفاق. لا تكرر security-deposit-refund (زاوية المستأجر) بل اربط به."
+      "note": "للملاك. المصدر: ejar.sa/ar/page/181067 + عكاظ نقلاً عن إيجار (okaz.com.sa/ampArticle/2141234، فُتح وتحقق منه: تسليم الضمان نقداً للمالك أو الوسيط مخالفة وفق نظام الوساطة العقارية) + سبق LwjsCK5. الزاوية: حماية المالك بنموذج التسليم والاقتطاع باتفاق. لا يكرر security-deposit-refund (زاوية المستأجر) بل يربط به وأُضيف رابط عكسي من مقاله.",
+      "draft_branch": "draft/article-landlord-deposit-dont-hold-cash",
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-landlord-deposit-dont-hold-cash بانتظار تدقيق مدقق النشر (2026-10-28). لم يُدفع إلى main.",
+      "published": "2026-10-28"
     },
     {
       "slug": "vacant-buildings-white-land-fees",
