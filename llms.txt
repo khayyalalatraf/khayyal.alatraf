@@ -25,8 +25,8 @@
 ## معلومات نظامية مختصرة (وفق إيضاحات منصة إيجار)
 - لا ينشئ المؤجر أو المستأجر عقد الإيجار في منصة إيجار بنفسه؛ يُنشأ العقد عن طريق وسيط عقاري مرخّص مسجّل في شبكة إيجار، ثم يوافق عليه الأطراف إلكترونياً.
 - تسجيل عقود الإيجار في منصة إيجار هو المرجعية الرسمية المعتمدة، وعقد الإيجار غير المسجّل لا يُعد عقداً صحيحاً منتجاً لآثاره الإدارية والقضائية، والتسجيل التزام على المؤجر.
-- يتجدد عقد الإيجار تلقائياً في جميع المدن ما لم يُشعِر أحد الطرفين الآخر قبل 60 يوماً على الأقل من نهايته، ويمكن للمؤجر تقديم طلب تعديل الأجرة قبل 90 يوماً من نهايته، وفي الرياض تجميد للزيادة السنوية 5 سنوات داخل النطاق العمراني (للعقود التي تزيد مدتها على 3 أشهر).
-- رسوم منصة إيجار يدفعها المؤجر ما لم يتفق الطرفان على خلاف ذلك، وهي مستقلة عن رسوم خدمة المكتب.
+- يتجدد عقد الإيجار السكني أو التجاري الذي تزيد مدته على ثلاثة أشهر تلقائياً في جميع المدن ما لم يُشعِر أحد الطرفين الآخر قبل 60 يوماً على الأقل من نهايته، ويمكن للمؤجر تقديم طلب تعديل الأجرة قبل 90 يوماً من نهايته، وفي الرياض تجميد للزيادة السنوية 5 سنوات داخل النطاق العمراني (للعقود التي تزيد مدتها على 3 أشهر).
+- رسوم منصة إيجار يدفعها المؤجر (https://www.ejar.sa/ar/page/19420)، وهي مستقلة عن رسوم خدمة المكتب.
 - عقود البيع ونقل الملكية (الإفراغ) تتم عبر منصات وزارة العدل وليس منصة إيجار.
 
 ## معلومات التواصل
@@ -58,27 +58,27 @@
 - [التسجيل العيني: عقارك في الأحياء المعلنة؟ المهلة وكيف تسجّل قبل الغرامة](https://khayyal-alatraf.sa/blog/in-kind-registration-deadline-owners.html)
 - [سكن العمال للمنشآت: إيجاد السكن وتوثيق عقده](https://khayyal-alatraf.sa/worker-housing.html)
 - [خدمات المستأجرين: توثيق عقد المستأجر (120 ريال)](https://khayyal-alatraf.sa/tenant-services.html)
-- [عقد ايجار سكن عمال للمنشآت: كيف يُوثّق في منصة إيجار؟](https://khayyal-alatraf.sa/blog/worker-housing-rental-contract.html)
-- [مستأجر وأبي أوثّق عقد الايجار والمالك ما تجاوب: وش الحل؟](https://khayyal-alatraf.sa/blog/tenant-wants-to-document-contract.html)
+- [عقد إيجار سكن عمال للمنشآت: كيف يُوثّق في منصة إيجار؟](https://khayyal-alatraf.sa/blog/worker-housing-rental-contract.html)
+- [مستأجر وأبي أوثّق عقد الإيجار والمالك ما تجاوب: وش الحل؟](https://khayyal-alatraf.sa/blog/tenant-wants-to-document-contract.html)
 - [شقتي مفروشة يومي: وش يتغير مع لائحة الضيافة الجديدة؟](https://khayyal-alatraf.sa/blog/furnished-apartments-hospitality-rules.html)
-- [نقل عداد الكهرباء باسم المستأجر: يحتاج عقد ايجار موثق؟](https://khayyal-alatraf.sa/blog/transfer-electricity-meter-tenant.html)
+- [نقل عداد الكهرباء باسم المستأجر: يحتاج عقد إيجار موثق؟](https://khayyal-alatraf.sa/blog/transfer-electricity-meter-tenant.html)
 - [تعاون ثلاثي لعقارات الورثة: محاماة وإدارة وتسويق في مسار واحد](https://khayyal-alatraf.sa/blog/heirs-property-partnership.html)
 - [عقار موروث ومعطّل؟ الإدارة المؤقتة ثم البيع بالتراضي بقرار الورثة](https://khayyal-alatraf.sa/blog/inherited-property-temporary-management.html)
 - [أبي أبيع نصيبي من عقار الورثة: هل أحتاج موافقة البقية؟](https://khayyal-alatraf.sa/blog/sell-my-share-inherited-property.html)
 - [ورثنا عقار وواحد من الورثة رافض البيع: وش الحل؟](https://khayyal-alatraf.sa/blog/heirs-one-refuses-sale.html)
 - [تقييم عقار الورثة: ليش مقيّم معتمد يحسم الخلاف؟](https://khayyal-alatraf.sa/blog/inherited-property-valuation.html)
 - [رسوم العقارات الشاغرة والأراضي البيضاء: هل تشمل عقارك؟](https://khayyal-alatraf.sa/blog/vacant-buildings-white-land-fees.html)
-- [المستأجر ما دفع الايجار: كم ياخذ الإخلاء والمطالبة عبر ناجز؟](https://khayyal-alatraf.sa/blog/najiz-eviction-timeline-landlord.html)
-- [رفض تجديد عقد الايجار: متى يحق للمالك في الرياض وخارجها؟](https://khayyal-alatraf.sa/blog/refuse-renewal-cases-landlord.html)
-- [عقد ايجار غير مسجل في إيجار: وش الغرامة وكيف تسجل القديم؟](https://khayyal-alatraf.sa/blog/unregistered-old-leases-penalty.html)
-- [عقد ايجار الكتروني في أبها وخميس مشيط: وش تحتاج؟](https://khayyal-alatraf.sa/blog/rental-contract-abha.html)
-- [توثيق عقد ايجار في تبوك عن بُعد: الخطوات وحقوق الطرفين](https://khayyal-alatraf.sa/blog/rental-contract-tabuk.html)
-- [عقد ايجار الكتروني في الجبيل: دليل موظفي الصناعية والشركات](https://khayyal-alatraf.sa/blog/rental-contract-jubail.html)
-- [ابي اوثق عقد ايجار في بريدة: على مين الرسوم وكيف؟](https://khayyal-alatraf.sa/blog/rental-contract-buraidah.html)
-- [عقد ايجار في الهفوف أو المبرز؟ وثّقه عن بُعد من جوالك](https://khayyal-alatraf.sa/blog/rental-contract-alahsa.html)
-- [ابي عقد ايجار الكتروني في جازان: الخطوات والتكلفة](https://khayyal-alatraf.sa/blog/rental-contract-jazan.html)
+- [المستأجر ما دفع الإيجار: كم ياخذ الإخلاء والمطالبة عبر ناجز؟](https://khayyal-alatraf.sa/blog/najiz-eviction-timeline-landlord.html)
+- [رفض تجديد عقد الإيجار: متى يحق للمالك في الرياض وخارجها؟](https://khayyal-alatraf.sa/blog/refuse-renewal-cases-landlord.html)
+- [عقد إيجار غير مسجل في إيجار: وش الغرامة وكيف تسجل القديم؟](https://khayyal-alatraf.sa/blog/unregistered-old-leases-penalty.html)
+- [عقد إيجار إلكتروني في أبها وخميس مشيط: وش تحتاج؟](https://khayyal-alatraf.sa/blog/rental-contract-abha.html)
+- [توثيق عقد إيجار في تبوك عن بُعد: الخطوات وحقوق الطرفين](https://khayyal-alatraf.sa/blog/rental-contract-tabuk.html)
+- [عقد إيجار إلكتروني في الجبيل: دليل موظفي الصناعية والشركات](https://khayyal-alatraf.sa/blog/rental-contract-jubail.html)
+- [ابي اوثق عقد إيجار في بريدة: على مين الرسوم وكيف؟](https://khayyal-alatraf.sa/blog/rental-contract-buraidah.html)
+- [عقد إيجار في الهفوف أو المبرز؟ وثّقه عن بُعد من جوالك](https://khayyal-alatraf.sa/blog/rental-contract-alahsa.html)
+- [ابي عقد إيجار إلكتروني في جازان: الخطوات والتكلفة](https://khayyal-alatraf.sa/blog/rental-contract-jazan.html)
 - [وش يلزمني عشان أوثّق عقد إيجار في حائل؟ دليل سريع](https://khayyal-alatraf.sa/blog/rental-contract-hail.html)
-- [عقد ايجار تجاري الكتروني (150 ريال رسوم الخدمة)](https://khayyal-alatraf.sa/commercial-rental-contract.html)
+- [عقد إيجار تجاري إلكتروني (150 ريال رسوم الخدمة)](https://khayyal-alatraf.sa/commercial-rental-contract.html)
 - [الموقع الرئيسي](https://khayyal-alatraf.sa/): من نحن، الخدمات، الأسئلة الشائعة، وطرق التواصل.
 - [صفحة تملّك الأجانب (English)](https://khayyal-alatraf.sa/foreign-ownership.html): دليل تملّك العقار للأجانب في السعودية وفق نظام 2026.
 - [خدماتنا في الرياض](https://khayyal-alatraf.sa/realestate-riyadh.html): توثيق عقود، بيع وتأجير وإدارة أملاك في الرياض.
@@ -95,7 +95,7 @@
 - [ترخيص إعلانات العقار](https://khayyal-alatraf.sa/ad-licensing.html): استخراج ترخيص الإعلان العقاري قبل نشر إعلانات البيع والتأجير.
 - [المدونة](https://khayyal-alatraf.sa/blog/index.html): مقالات حول عقود الإيجار وحقوق المستأجر والمالك، منها:
   - [عقدك قرب ينتهي؟ تقويم المالك: 90 يوماً لتعديل الأجرة و60 يوماً للإشعار](https://khayyal-alatraf.sa/blog/rent-renewal-reminder-landlords.html)
-  - [ماعندي عقد ايجار حساب المواطن: وش الحل؟](https://khayyal-alatraf.sa/blog/citizen-account-rental-contract.html)
+  - [ماعندي عقد إيجار حساب المواطن: وش الحل؟](https://khayyal-alatraf.sa/blog/citizen-account-rental-contract.html)
   - [فسخ عقد الإيجار قبل انتهاء مدته: الحالات والتعويض الفعلي](https://khayyal-alatraf.sa/blog/terminate-rental-contract-early.html)
   - [خسر 700 ألف ريال بعقد إيجار «موثّق»: 7 فحوصات قبل التوقيع](https://khayyal-alatraf.sa/blog/lease-due-diligence-700k-loss.html)
   - [العقد المعلّق في منصة إيجار](https://khayyal-alatraf.sa/blog/pending-contract-ejar.html)
@@ -111,7 +111,7 @@
   - [أبي أعلن عقاري في قروبات واتساب وحساباتي: هل أحتاج ترخيص إعلان؟](https://khayyal-alatraf.sa/blog/owner-ad-license-whatsapp-groups.html)
   - [محلي فاضي: كيف ألقى مستأجر تجاري بسرعة؟](https://khayyal-alatraf.sa/blog/find-tenant-commercial-shop.html)
   - [تأجير عقار الورثة في منصة إيجار: الصك المحدّث ومن يوقّع العقد](https://khayyal-alatraf.sa/blog/ejar-lease-inherited-property.html)
-  - [ترخيص اعلان عقاري للمالك: كيف تستخرجه قبل نشر إعلانك؟](https://khayyal-alatraf.sa/blog/owner-real-estate-ad-license.html)
+  - [ترخيص إعلان عقاري للمالك: كيف تستخرجه قبل نشر إعلانك؟](https://khayyal-alatraf.sa/blog/owner-real-estate-ad-license.html)
   - [بكم أؤجّر شقتي؟ كيف تعرف سعر الإيجار المناسب لحيّك](https://khayyal-alatraf.sa/blog/rent-price-rental-index.html)
-  - [عقد ايجار الكتروني في ينبع: سكن موظفي المصافي والمدينة الصناعية](https://khayyal-alatraf.sa/blog/rental-contract-yanbu.html)
+  - [عقد إيجار إلكتروني في ينبع: سكن موظفي المصافي والمدينة الصناعية](https://khayyal-alatraf.sa/blog/rental-contract-yanbu.html)
   - [يا مالك: ليه ما تستلم مبلغ الضمان بيدك؟](https://khayyal-alatraf.sa/blog/landlord-deposit-dont-hold-cash.html)
