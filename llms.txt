@@ -48,6 +48,7 @@
 جميع مناطق المملكة العربية السعودية (الرياض، جدة، الدمام، مكة المكرمة، المدينة المنورة، الخبر، الطائف، وبقية المناطق).
 
 ## Pages
+- [الأسئلة الشائعة عن الوساطة وعقود الإيجار](https://khayyal-alatraf.sa/faq.html)
 - [ضريبة التصرفات العقارية 5%: مين يدفعها ومتى تُعفى؟](https://khayyal-alatraf.sa/blog/rett-real-estate-tax-who-pays.html)
 - [أبي أبيع عمارتي وهي مؤجرة: هل العقود تنتقل للمشتري؟](https://khayyal-alatraf.sa/blog/selling-rented-building-to-investor.html)
 - [ما حق بقية الورثة إذا سكن أحدهم بيت الورثة دون إيجار؟](https://khayyal-alatraf.sa/blog/heir-living-in-inherited-house.html)
