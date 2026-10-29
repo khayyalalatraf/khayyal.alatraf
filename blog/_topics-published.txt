@@ -45,3 +45,4 @@ inherited-property-valuation
 owner-real-estate-ad-license
 rental-contract-yanbu
 landlord-deposit-dont-hold-cash
+rental-contract-najran
