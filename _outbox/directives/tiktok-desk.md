@@ -5,7 +5,7 @@
 ## ما تفعله في كل دورة (إضافة إلى سطرك في _growth/OWNER-QUEUE.md)
 1. حمّل ArtifactData عبر ToolSearch ("select:ArtifactData").
 2. لكل بند جديد تسلّمه للرئيس، اكتب وثيقة (action "set") في:
-   - url: https://claude.ai/artifact/GTdtj5uDEv2HjoF92MWoCM
+   - url: (رابط مكتب الرئيس في تعليمات الوكيل المجدولة — لا تُنشر الروابط الداخلية في المستودع العام)
    - collection: owner_queue
    - doc_id: نفس معرّف السطر في OWNER-QUEUE (مثل x-20261018-1225 أو xq-20261018 أو tt-15-slug أو yt-04-slug أو pack-2026-10-24-1)
    - data:
