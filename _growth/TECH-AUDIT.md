@@ -2,6 +2,11 @@
 
 الأداة: `python3 -I _growth/tools/tech-audit.py .` من جذر المستودع. تفحص: العنوان وطوله، الوصف وطوله (70–160)، canonical، عدد h1، alt للصور، صحة JSON-LD، التغطية في sitemap والروابط الميتة فيه، الروابط الداخلية المكسورة، روابط واتساب بلا نص معبأ.
 
+## 2026-11-01 (main عند d150166 — وكيل النمو)
+- 72 ملف HTML، 69 رابطاً في sitemap. لا ملاحظة على صفحة مفهرسة. المقصودة فقط: 404 وpromo-post وpromo-story ورابط كتالوج wa.me/c.
+- ضعف ربط داخلي: rental-contract-najran (2) وlandlord-deposit-dont-hold-cash (2)، وصفحات realestate-mecca/khobar/medina/taif (1 لكل منها) ← عولج في draft/growth-20261101-1.
+- sync-lastmod.py يخطئ بسبب 6749d54 (BACKLOG 42).
+
 ## 2026-10-28 (main عند 856df03 — وكيل النمو)
 - 70 صفحة، 67 رابطاً في sitemap. لا ملاحظة على صفحة مفهرسة (العنوان ≤65، الوصف ≤160، canonical، h1، JSON-LD، FAQPage، og:site_name، lastmod، الروابط المكسورة، التذييل). الملاحظات المقصودة فقط: 404 وpromo-post وpromo-story، ورابط كتالوج wa.me/c في الرئيسية.
 - ضعف ربط داخلي: rental-contract-yanbu (رابطان) وowner-real-estate-ad-license (رابطان) ← عولج في draft/growth-20261028-1 (8 و4).

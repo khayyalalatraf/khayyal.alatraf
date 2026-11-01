@@ -163,3 +163,9 @@
 - **النتيجة: 0 من 30 (0%).** بحث «خيّال الأطراف العقارية khayyal-alatraf.sa»: لا ظهور.
 - المتصدرون كما في القياس الثاني: raghdan.sa (أغلب الأسئلة، وكل نتائج Q15)، bayut.sa (Q01، Q12، Q13، Q22)، sa.aqar.fm، sabbar.com (وظائف)، ejar.sa (دليل مكاتب الوساطة، Q02 وQ06).
 - جديد: ملفات raghdan.sa/ar/public-profile لمكاتب «مسوق عقاري» تتصدر Q19 (جدة) وQ30 (كل المملكة) — مصدر استشهاد يمكن أن نظهر فيه بملف للمنشأة (BACKLOG 38).
+
+## القياس الرابع — 2026-11-01 (WebSearch standard)
+- **النتيجة: 0 من 30 = 0%.** بحث «خيّال الأطراف العقارية khayyal-alatraf.sa»: لا ظهور.
+- raghdan.sa ظهر في 19 سؤالاً (Q01–Q09، Q11، Q15–Q17، Q19، Q22، Q23، Q27، Q29، Q30)، وملفاته العامة «مسوق عقاري» تتصدر Q19 وQ30. يليه sabbar.com (إعلانات وظائف) وbayut.sa وsa.aqar.fm.
+- مصادر إجابات الأسئلة الإجرائية (Q04، Q18، Q23، Q26): ajel.sa، sabq.org، okaz.com.sa، etqanlawfirm-sa.com، ejar.sa، rega.gov.sa.
+- جديد: Q11 أظهر ملف Google Business لشركة إدارة أملاك في الخبر (business.google.com)، أي أن ملفات Google التجارية صارت تُفهرس في البحث العام.
