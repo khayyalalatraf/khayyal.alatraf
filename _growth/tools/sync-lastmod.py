@@ -12,6 +12,7 @@ changed lines differ only in hrefs, dates (lastmod/dateModified) or the footer
 copyright line / og:site_name meta are ignored (quality report 2026-10-26 #16). A page with
 uncommitted content changes gets today's date. The date is set exactly, so it
 can move backwards when an earlier bump was not a real content change.
+Dates are in Asia/Riyadh (UTC+3), not the committer timezone.
 Refuses to run on a shallow clone (dates would be wrong).
 """
 import datetime, re, subprocess, sys
@@ -50,7 +51,8 @@ def changed_lines(args):
 
 SITE = "https://khayyal-alatraf.sa/"
 write = "--write" in sys.argv
-today = datetime.date.today().isoformat()
+RIYADH = datetime.timezone(datetime.timedelta(hours=3))  # KSA, no DST
+today = datetime.datetime.now(RIYADH).date().isoformat()
 
 
 def page_date(path):
@@ -58,13 +60,14 @@ def page_date(path):
                            capture_output=True, text=True).stdout.strip()
     if dirty and not is_trivial(changed_lines(["diff", "-U0", "HEAD", "--", path])):
         return today
-    log = subprocess.run(["git", "log", "--format=%H %cs", "--", path],
+    log = subprocess.run(["git", "log", "--format=%H %ct", "--", path],
                          capture_output=True, text=True).stdout.split("\n")
     last = None
     for row in log:
         if not row.strip():
             continue
-        h, d = row.split()
+        h, ts = row.split()
+        d = datetime.datetime.fromtimestamp(int(ts), RIYADH).date().isoformat()
         last = d
         if not is_trivial(changed_lines(["show", "--format=", "-U0", h, "--", path])):
             return d
