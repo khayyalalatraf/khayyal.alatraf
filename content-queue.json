@@ -438,13 +438,16 @@
     {
       "slug": "cancel-rental-contract-ejar",
       "title": "الغاء عقد إيجار في منصة إيجار: بالتراضي أو من طرف واحد؟",
-      "status": "pending",
+      "status": "done",
+      "published": "2026-11-03",
       "keywords": [
         "الغاء عقد ايجار في منصة ايجار",
         "فسخ عقد الايجار الالكتروني",
         "طريقة الغاء عقد الايجار"
       ],
-      "note": "فجوة 2026-10-10: النتائج مدونات قديمة. فرّق بين إلغاء العقد قبل توثيقه، والإنهاء بالتراضي، والفسخ عند النزاع (ناجز). المصدر: دليل خدمات إيجار من rega.gov.sa وصفحات ejar.sa. اربط بـ terminate-rental-contract-early."
+      "note": "فجوة 2026-10-10: النتائج مدونات قديمة. فرّق بين إلغاء العقد قبل توثيقه، والإنهاء بالتراضي، والفسخ عند النزاع (ناجز). المصدر: دليل خدمات إيجار من rega.gov.sa وصفحات ejar.sa. اربط بـ terminate-rental-contract-early.",
+      "draft_branch": "draft/article-cancel-rental-contract-ejar",
+      "review_note": "مكتوب ومدفوع إلى فرع draft/article-cancel-rental-contract-ejar بانتظار تدقيق مدقق النشر، حسب سياسة content-queue.json (تُدفع المقالات اليومية إلى فرع ولا تُدفع إلى main مباشرة). ملاحظة: أول عنصر pending كان property-valuation-before-sale، لكن وُجد له مسبقاً فرع draft/article-property-valuation-before-sale (وكذلك choose-good-tenant وrental-contract-albaha) بانتظار مدقق النشر من جلسة سابقة لم تُحدَّث حالتها في main بعد؛ فجرى تجاوزها لعدم تكرار المحتوى، والانتقال لأول عنصر pending بلا فرع مسودة قائم. المصادر: دليل خدمات منصة إيجار الصادر عن الهيئة العامة للعقار (rega.gov.sa) — خدمتا «إنهاء العقد من الطرفين» و«فسخ العقد من طرف واحد» بأسمائهما وخطواتهما ومدة المراجعة (3 أيام عمل) كما وردت فيه — وejar.sa/en/faqs. لم يُدفع إلى main."
     },
     {
       "slug": "iftragh-property-transfer-steps",

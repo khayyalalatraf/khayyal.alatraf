@@ -48,3 +48,4 @@ landlord-deposit-dont-hold-cash
 rental-contract-najran
 renew-expired-rental-contract
 rental-contract-albaha
+cancel-rental-contract-ejar
