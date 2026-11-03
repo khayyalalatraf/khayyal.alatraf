@@ -47,3 +47,4 @@ rental-contract-yanbu
 landlord-deposit-dont-hold-cash
 rental-contract-najran
 renew-expired-rental-contract
+cancel-rental-contract-ejar
