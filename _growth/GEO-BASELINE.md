@@ -169,3 +169,9 @@
 - raghdan.sa ظهر في 19 سؤالاً (Q01–Q09، Q11، Q15–Q17، Q19، Q22، Q23، Q27، Q29، Q30)، وملفاته العامة «مسوق عقاري» تتصدر Q19 وQ30. يليه sabbar.com (إعلانات وظائف) وbayut.sa وsa.aqar.fm.
 - مصادر إجابات الأسئلة الإجرائية (Q04، Q18، Q23، Q26): ajel.sa، sabq.org، okaz.com.sa، etqanlawfirm-sa.com، ejar.sa، rega.gov.sa.
 - جديد: Q11 أظهر ملف Google Business لشركة إدارة أملاك في الخبر (business.google.com)، أي أن ملفات Google التجارية صارت تُفهرس في البحث العام.
+
+## القياس الخامس — 2026-11-04 (WebSearch standard)
+- **النتيجة: 0 من 30 = 0%.** بحث «خيّال الأطراف العقارية» وبحث «khayyal-alatraf.sa»: لا ظهور (نتائج النطاق لا علاقة لها بالموقع).
+- raghdan.sa ظهر في 19 سؤالاً، وتصدّر Q02 وQ11 وQ15 (كل النتائج العشر له) وQ19 وQ23 وQ30. يليه sabbar.com وbayut.sa وsa.aqar.fm.
+- مصادر الأسئلة الإجرائية (Q04، Q18، Q23، Q26): ajel.sa، aleqtsad.org، okaz.com.sa، rega.gov.sa، etqanlawfirm-sa.com.
+- جديد: wasalt.sa (Q03، Q08، Q24، Q29) وdealapp.sa (Q06) وeyeofriyadh.com (Q16).
