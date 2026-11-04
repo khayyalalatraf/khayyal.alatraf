@@ -24,7 +24,7 @@
 - **الجوال/واتساب:** 0530592272 — https://wa.me/966530592272
 - **البريد:** khayyal.alatraf.realestate@outlook.sa
 - **الموقع:** https://khayyal-alatraf.sa/
-- **نطاق الخدمة:** جميع مناطق المملكة عن بُعد على مدار الساعة، والزيارة بموعد مسبق
+- **نطاق الخدمة:** جميع مناطق المملكة عن بُعد على مدار الساعة، والزيارة متاحة في المقر، ويُفضَّل التنسيق المسبق عبر واتساب
 - **التقييمات:** https://g.page/r/CdXwqfepqlPsEAE/review
 - **الحسابات:** إكس https://x.com/khayyalalatraf · تيك توك https://www.tiktok.com/@khayyal_alatraf · يوتيوب https://www.youtube.com/@khayyalalatraf
 
