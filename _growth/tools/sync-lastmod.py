@@ -15,7 +15,9 @@ Rules (quality reports 2026-10-24 #28, 2026-10-26 #16, q20261104 #13):
   copyright line is ignored).
 - sitemap lastmod: last commit that changed the visible text, OR the JSON-LD
   content (date fields excluded), OR the internal link targets (relative hrefs
-  or hrefs to the site; hrefs with ?text= and external hrefs are ignored).
+  or hrefs to the site; hrefs with ?text= and external hrefs are ignored), OR
+  the head metadata search engines read (<title>, meta description,
+  og:title, og:description).
   For blog pages lastmod is never earlier than dateModified.
 - datePublished, when missing, = author date of the file's first commit.
   Missing datePublished/dateModified are inserted into the BlogPosting JSON-LD.
@@ -107,6 +109,21 @@ def internal_links(src):
     return links
 
 
+def head_meta(src):
+    """<title> + meta description / og:title / og:description (q20261104 #13 audit)."""
+    out = []
+    m = re.search(r"<title\b[^>]*>(.*?)</title>", src, flags=re.S | re.I)
+    out.append(re.sub(r"\s+", " ", htmlmod.unescape(m.group(1))).strip() if m else "")
+    for tag in re.findall(r"<meta\b[^>]*>", src, flags=re.I):
+        k = re.search(r'\b(?:name|property)\s*=\s*["\']([^"\']+)["\']', tag, flags=re.I)
+        if not k or k.group(1).lower() not in ("description", "og:title", "og:description"):
+            continue
+        c = re.search(r'\bcontent\s*=\s*"([^"]*)"', tag, flags=re.I) or \
+            re.search(r"\bcontent\s*=\s*'([^']*)'", tag, flags=re.I)
+        out.append(k.group(1).lower() + "=" + re.sub(r"\s+", " ", htmlmod.unescape(c.group(1) if c else "")).strip())
+    return tuple(sorted(out[1:]) + [out[0]])
+
+
 _sig_cache = {}
 
 
@@ -117,7 +134,7 @@ def sigs(src):
     key = hash(src)
     if key not in _sig_cache:
         v = visible_text(src)
-        _sig_cache[key] = (v, (v, tuple(ld_content(src)), tuple(internal_links(src))))
+        _sig_cache[key] = (v, (v, tuple(ld_content(src)), tuple(internal_links(src)), head_meta(src)))
     return _sig_cache[key]
 
 
