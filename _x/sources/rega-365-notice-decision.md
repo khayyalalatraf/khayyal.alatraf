@@ -43,8 +43,9 @@ period needed to complete it, counted from service of the non-renewal notice; pu
 
 ## Conclusions for the site
 
-- Date 1447/07/02هـ: VERIFIED from official REGA text (item 2: "dated 02/07/1447 AH"). Kept.
+- Date: SUPERSEDED (v3, auditor m1793807063093, merged b1acfd2): the decision is cited WITHOUT a date.
+  (Item 2 quotes "dated 02/07/1447 AH" for a numbered resolution, but decision (1) itself states no date and its listing shows 1447/07/03, so no date is cited.)
 - Number 4700004802: NOT confirmed. The official English PDF reads "(470000480)" (9 digits); decision (1)
   itself carries no number. The number is therefore omitted on the site; citation reads
-  «قرار الهيئة العامة للعقار في 1447/07/02هـ» linked to the REGA page in (1).
+  «قرار الهيئة العامة للعقار» (no number, no date) linked to the REGA page in (1).
 - The previous uqn.gov.sa link (rejected by audit) is NOT this decision (auditor: it is an unrelated cabinet decision) — removed.
