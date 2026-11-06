@@ -164,10 +164,14 @@ def page_dates(path):
             continue
         hp, ts = r.split("|")
         hp = hp.split()
-        commits.append((hp[0], hp[1:], ts))
+        commits.append((hp[0], hp[1:], int(ts)))
     if not commits:
         _dates_cache[path] = None
         return None
+    # q20261105 #21: git log lists commits in graph order, so a rebased or
+    # merged commit can come after an older-dated one. Judge newest author
+    # time first, so the first qualifying commit is the latest date (max).
+    commits.sort(key=lambda c: c[2], reverse=True)
     dm = lm = None
     head = sigs(blob("HEAD:" + path))
     if os.path.exists(path):
@@ -185,7 +189,7 @@ def page_dates(path):
             dm = day(ts)
         if not lm and all(differs(cur, p, 1) for p in prevs):
             lm = day(ts)
-    created = day(commits[-1][2])
+    created = day(min(c[2] for c in commits))
     dm = dm or created
     lm = max(lm or created, dm)
     _dates_cache[path] = (dm, lm, created)
