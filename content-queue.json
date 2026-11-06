@@ -493,7 +493,8 @@
     {
       "slug": "rental-contract-hafr-albatin",
       "title": "عقد إيجار إلكتروني في حفر الباطن: منفذ الرقعي والجامعة",
-      "status": "draft_review",
+      "status": "done",
+      "published": "2026-11-06",
       "audience": "مدينة",
       "keywords": [
         "عقد ايجار حفر الباطن",

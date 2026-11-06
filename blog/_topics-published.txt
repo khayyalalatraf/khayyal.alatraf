@@ -50,3 +50,4 @@ renew-expired-rental-contract
 rental-contract-albaha
 cancel-rental-contract-ejar
 iftragh-property-transfer-steps
+rental-contract-hafr-albatin
