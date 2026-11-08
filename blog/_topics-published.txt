@@ -52,4 +52,3 @@ cancel-rental-contract-ejar
 iftragh-property-transfer-steps
 rental-contract-hafr-albatin
 off-plan-deposit-checks
-property-valuation-before-sale
