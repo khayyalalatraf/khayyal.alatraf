@@ -2,6 +2,12 @@
 
 الأداة: `python3 -I _growth/tools/tech-audit.py .` من جذر المستودع. تفحص: العنوان وطوله، الوصف وطوله (70–160)، canonical، عدد h1، alt للصور، صحة JSON-LD، التغطية في sitemap والروابط الميتة فيه، الروابط الداخلية المكسورة، روابط واتساب بلا نص معبأ.
 
+## 2026-11-08 (main عند ed5fe39 — وكيل النمو)
+- 78 صفحة، 75 رابطاً في sitemap. لا ملاحظة على صفحة مفهرسة في العناوين والأوصاف وcanonical وh1 وJSON-LD وFAQPage والروابط وgtag. المقصودة فقط: 404 وpromo-post وpromo-story ورابط كتالوج wa.me/c.
+- ثابت: «حي العليا» نص ظاهر في تذييل index.html ← عولج في draft/growth-20261108-1. الفحص يشمل من الآن النص الظاهر لا JSON-LD فقط.
+- ضعف ربط داخلي: hafr-albatin (2) وoff-plan-deposit-checks (2) وiftragh (3) ← عولج في draft/growth-20261108-1 (11 و3 و4).
+- تشابه نصي بالكلمات 0.79 بين rental-contract-jubail وrental-contract-yanbu ← BACKLOG 50.
+
 ## 2026-11-04 (main عند 283d623 — وكيل النمو)
 - 75 ملف HTML، 72 رابطاً في sitemap. لا ملاحظة على صفحة مفهرسة. المقصودة فقط: 404 وpromo-post وpromo-story ورابط كتالوج wa.me/c.
 - ضعف ربط داخلي: cancel-rental-contract-ejar (2) وrenew-expired-rental-contract (2) وrental-contract-albaha (2) ← عولج في draft/growth-20261104-1 (3 و5 و11).

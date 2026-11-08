@@ -175,3 +175,9 @@
 - raghdan.sa ظهر في 19 سؤالاً، وتصدّر Q02 وQ11 وQ15 (كل النتائج العشر له) وQ19 وQ23 وQ30. يليه sabbar.com وbayut.sa وsa.aqar.fm.
 - مصادر الأسئلة الإجرائية (Q04، Q18، Q23، Q26): ajel.sa، aleqtsad.org، okaz.com.sa، rega.gov.sa، etqanlawfirm-sa.com.
 - جديد: wasalt.sa (Q03، Q08، Q24، Q29) وdealapp.sa (Q06) وeyeofriyadh.com (Q16).
+
+## القياس السادس — 2026-11-08 (WebSearch standard)
+- **النتيجة: 0 من 30 = 0%.** بحث «خيّال الأطراف العقارية» وبحث «khayyal-alatraf.sa»: لا ظهور.
+- raghdan.sa في 19 سؤالاً (Q01–Q09، Q11، Q15–Q17، Q19، Q22، Q23، Q27، Q29، Q30)، ويتصدر Q02 وQ07 وQ11 وQ15 وQ23 وQ30. يليه sabbar.com (وظائف) وbayut.sa وsa.aqar.fm.
+- مصادر الأسئلة الإجرائية (Q04، Q18، Q23، Q26): ajel.sa، aleqtsad.org، okaz.com.sa، rega.gov.sa، etqanlawfirm-sa.com.
+- جديد: ملفات المكاتب في sa.aqar.fm تظهر في Q13 وQ14 وQ24 وQ25 وQ28، ومقالات mawdoo3.com «أفضل مكاتب [المدينة]» في Q03 وQ08 وQ10 وQ19، وملفات سناب شات لمكاتب في Q13 وQ25 وQ29.
